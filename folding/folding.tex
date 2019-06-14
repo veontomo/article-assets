@@ -20,51 +20,41 @@
 \newlength{\y}
 
 \begin{tikzpicture}
-
-
-\node[yshift=-6cm] at (16, 0.5) {\circled{5}};
 \Large
 
-\setcounter{counter}{0}
-\setlength{\y}{2cm}
+% \setcounter{counter}{0}
+% \setlength{\y}{2cm}
+% \draw [step=1cm,color=gray, yshift=\y] (0, 0) grid (13, 1);
+% \foreach \x in {J,a,v,a,,l,a,n,g,u,a,g,e}
+% 	\node[yshift=\y] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
 
-\node[yshift=\y] at (16, 0.5) {\circled{1}};
-\draw [step=1cm,color=gray, yshift=\y] (0, 0) grid (13, 1);
-\foreach \x in {J,a,v,a,,l,a,n,g,u,a,g,e}
-	\node[yshift=\y] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
-
-\setcounter{counter}{0}
-\setlength{\y}{0cm}
-\node[yshift=\y] at (16, 0.5) {\circled{2}};
-\draw [step=1cm,color=gray, yshift=0cm] (0, 0) grid (13, 1);
-\foreach \x in {74, 97, 118, 97, 32, 108, 97, 110, 103, 117, 97, 103, 101}
-	\node[yshift=0cm] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
+% \setcounter{counter}{0}
+% \setlength{\y}{0cm}
+% \draw [step=1cm,color=gray, yshift=0cm] (0, 0) grid (13, 1);
+% \foreach \x in {74, 97, 118, 97, 32, 108, 97, 110, 103, 117, 97, 103, 101}
+% 	\node[yshift=0cm] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
 
 
-\setcounter{counter}{0}
-\setlength{\y}{-2cm}
-\node[yshift=\y] at (16, 0.5) {\circled{3}};
-\draw [step=1cm,color=gray, yshift=\y] (0, 0) grid (13, 1);
-\foreach \x in {74, 97, 118, 97, 32, 108, 97, 110, 103, 117, 97, 103, 101}
-	\node[yshift=\y] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
-\draw [step=2cm,color=bael1,xscale=1,yscale=1/2,opacity=0.9,line width=3pt,rounded corners, yshift=2\y] (-0.05,0) grid (14.05,2);
+% \setcounter{counter}{0}
+% \setlength{\y}{-2cm}
+% \draw [step=1cm,color=gray, yshift=\y] (0, 0) grid (13, 1);
+% \foreach \x in {74, 97, 118, 97, 32, 108, 97, 110, 103, 117, 97, 103, 101}
+% 	\node[yshift=\y] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
+% \draw [step=2cm, color=bael1, xscale=1, yscale=1/2, opacity=0.9, line width=3pt, rounded corners, yshift=2\y] (-0.05,0) grid (14.05,2);
 
 
 \setcounter{counter}{0}
 \setlength{\y}{-4cm}
-\node[yshift=\y] at (16, 0.5) {\circled{4}};
 \foreach \x in {7497, 11897,32108, 97110,103117, 97103, 101}
 	\node[yshift=\y] at (2*\value{counter}-1, 1/2) {\x\addtocounter{counter}{1}};
-\draw [step=2cm,color=bael1,xscale=1,yscale=1/2,opacity=0.9,line width=3pt,rounded corners, yshift=2\y] (-0.05,0) grid (14.05,2);
+\draw [step=2cm, color=bael1, xscale=1, yscale=1/2, opacity=0.9, line width=3pt, rounded corners, yshift=2\y] (-0.05,0) grid (14.05,2);
 
 
-\setcounter{counter}{0}
 \setlength{\y}{-5.5cm}
-	\node[yshift=\y] at (7, 1/2) {$7497+11897+32108+97110+103117+97103+101=348933$};
+\node[yshift=\y] at (7, 1/2) {$7497+11897+32108+97110+103117+97103+101=348933$};
 
-\setcounter{counter}{0}
-\setlength{\y}{-6.5cm}
-	\node[yshift=\y] at (7, 1/2) {$348933 \to 48933$};
+% \setlength{\y}{-6.5cm}
+% 	\node[yshift=\y] at (7, 1/2) {$348933 \to 48933$};
 \end{tikzpicture}
 
 \end{document}
