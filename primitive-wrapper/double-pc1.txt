@@ -1,0 +1,200 @@
+Primitive double first
+Double/double: 1.2692307692307692
+Wrapper Double first
+Double/double: 1.2857142857142858
+Wrapper Double first
+Double/double: 1.3505154639175259
+Wrapper Double first
+Double/double: 1.3434343434343434
+Primitive double first
+Double/double: 1.396039603960396
+Wrapper Double first
+Double/double: 1.268041237113402
+Primitive double first
+Double/double: 1.3195876288659794
+Primitive double first
+Double/double: 1.288659793814433
+Primitive double first
+Double/double: 1.2577319587628866
+Wrapper Double first
+Double/double: 1.2653061224489797
+Wrapper Double first
+Double/double: 1.2653061224489797
+Wrapper Double first
+Double/double: 1.2783505154639174
+Wrapper Double first
+Double/double: 1.2783505154639174
+Primitive double first
+Double/double: 1.3125
+Wrapper Double first
+Double/double: 1.2959183673469388
+Wrapper Double first
+Double/double: 1.288659793814433
+Wrapper Double first
+Double/double: 1.2095238095238094
+Wrapper Double first
+Double/double: 1.268041237113402
+Primitive double first
+Double/double: 1.288659793814433
+Primitive double first
+Double/double: 1.288659793814433
+Primitive double first
+Double/double: 1.2783505154639174
+Primitive double first
+Double/double: 1.2783505154639174
+Wrapper Double first
+Double/double: 1.2828282828282829
+Primitive double first
+Double/double: 1.2857142857142858
+Primitive double first
+Double/double: 1.2551020408163265
+Primitive double first
+Double/double: 1.3298969072164948
+Wrapper Double first
+Double/double: 1.5463917525773196
+Primitive double first
+Double/double: 1.2577319587628866
+Wrapper Double first
+Double/double: 1.2783505154639174
+Wrapper Double first
+Double/double: 1.309278350515464
+Primitive double first
+Double/double: 1.3214285714285714
+Wrapper Double first
+Double/double: 1.2577319587628866
+Wrapper Double first
+Double/double: 1.2574257425742574
+Primitive double first
+Double/double: 1.2551020408163265
+Wrapper Double first
+Double/double: 1.268041237113402
+Primitive double first
+Double/double: 1.2058823529411764
+Wrapper Double first
+Double/double: 1.3545454545454545
+Wrapper Double first
+Double/double: 0.8571428571428571
+Wrapper Double first
+Double/double: 0.9253731343283582
+Primitive double first
+Double/double: 1.2551020408163265
+Primitive double first
+Double/double: 1.2959183673469388
+Wrapper Double first
+Double/double: 1.288659793814433
+Primitive double first
+Double/double: 1.268041237113402
+Primitive double first
+Double/double: 1.3402061855670102
+Wrapper Double first
+Double/double: 1.2169811320754718
+Primitive double first
+Double/double: 1.0551181102362204
+Wrapper Double first
+Double/double: 1.3333333333333333
+Primitive double first
+Double/double: 1.0973451327433628
+Wrapper Double first
+Double/double: 1.2773109243697478
+Primitive double first
+Double/double: 1.2277227722772277
+Primitive double first
+Double/double: 1.3195876288659794
+Primitive double first
+Double/double: 1.2653061224489797
+Primitive double first
+Double/double: 1.2783505154639174
+Wrapper Double first
+Double/double: 1.3298969072164948
+Primitive double first
+Double/double: 1.2653061224489797
+Wrapper Double first
+Double/double: 1.2783505154639174
+Primitive double first
+Double/double: 1.2577319587628866
+Primitive double first
+Double/double: 1.28
+Primitive double first
+Double/double: 1.2551020408163265
+Wrapper Double first
+Double/double: 1.4948453608247423
+Primitive double first
+Double/double: 1.2755102040816326
+Primitive double first
+Double/double: 1.346938775510204
+Primitive double first
+Double/double: 1.3838383838383839
+Wrapper Double first
+Double/double: 1.3535353535353536
+Primitive double first
+Double/double: 1.3125
+Primitive double first
+Double/double: 1.3711340206185567
+Wrapper Double first
+Double/double: 1.2857142857142858
+Primitive double first
+Double/double: 1.402061855670103
+Primitive double first
+Double/double: 1.3823529411764706
+Wrapper Double first
+Double/double: 2.6132075471698113
+Wrapper Double first
+Double/double: 1.25
+Wrapper Double first
+Double/double: 1.0057142857142858
+Wrapper Double first
+Double/double: 1.3636363636363635
+Primitive double first
+Double/double: 1.613861386138614
+Wrapper Double first
+Double/double: 2.737864077669903
+Primitive double first
+Double/double: 1.1775700934579438
+Primitive double first
+Double/double: 1.2474226804123711
+Primitive double first
+Double/double: 1.309278350515464
+Primitive double first
+Double/double: 1.158878504672897
+Wrapper Double first
+Double/double: 1.2857142857142858
+Primitive double first
+Double/double: 1.1401869158878504
+Wrapper Double first
+Double/double: 1.3645833333333333
+Primitive double first
+Double/double: 1.2551020408163265
+Primitive double first
+Double/double: 1.1923076923076923
+Primitive double first
+Double/double: 1.375
+Wrapper Double first
+Double/double: 1.288659793814433
+Primitive double first
+Double/double: 1.24
+Primitive double first
+Double/double: 1.3402061855670102
+Primitive double first
+Double/double: 1.4158415841584158
+Primitive double first
+Double/double: 1.33
+Wrapper Double first
+Double/double: 1.44
+Wrapper Double first
+Double/double: 1.393939393939394
+Primitive double first
+Double/double: 1.0789473684210527
+Wrapper Double first
+Double/double: 1.4757281553398058
+Wrapper Double first
+Double/double: 1.3877551020408163
+Wrapper Double first
+Double/double: 1.23
+Primitive double first
+Double/double: 1.2755102040816326
+Wrapper Double first
+Double/double: 1.2358490566037736
+Wrapper Double first
+Double/double: 1.1495327102803738
+Primitive double first
+Double/double: 1.3

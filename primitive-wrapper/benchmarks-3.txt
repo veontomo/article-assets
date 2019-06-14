@@ -1,0 +1,1040 @@
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.IntPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.088 s/op
+# Warmup Iteration   2: 0.076 s/op
+# Warmup Iteration   3: 0.069 s/op
+# Warmup Iteration   4: 0.072 s/op
+# Warmup Iteration   5: 0.044 s/op
+# Warmup Iteration   6: 0.034 s/op
+# Warmup Iteration   7: 0.035 s/op
+# Warmup Iteration   8: 0.034 s/op
+# Warmup Iteration   9: 0.035 s/op
+# Warmup Iteration  10: 0.042 s/op
+# Warmup Iteration  11: 0.044 s/op
+# Warmup Iteration  12: 0.045 s/op
+# Warmup Iteration  13: 0.051 s/op
+# Warmup Iteration  14: 0.040 s/op
+# Warmup Iteration  15: 0.050 s/op
+# Warmup Iteration  16: 0.046 s/op
+# Warmup Iteration  17: 0.051 s/op
+# Warmup Iteration  18: 0.047 s/op
+# Warmup Iteration  19: 0.051 s/op
+# Warmup Iteration  20: 0.051 s/op
+Iteration   1: 0.051 s/op
+Iteration   2: 0.046 s/op
+Iteration   3: 0.046 s/op
+Iteration   4: 0.047 s/op
+Iteration   5: 0.052 s/op
+Iteration   6: 0.051 s/op
+Iteration   7: 0.061 s/op
+Iteration   8: 0.052 s/op
+Iteration   9: 0.051 s/op
+Iteration  10: 0.074 s/op
+Iteration  11: 0.083 s/op
+Iteration  12: 0.082 s/op
+Iteration  13: 0.048 s/op
+Iteration  14: 0.047 s/op
+Iteration  15: 0.038 s/op
+Iteration  16: 0.052 s/op
+Iteration  17: 0.048 s/op
+Iteration  18: 0.046 s/op
+Iteration  19: 0.064 s/op
+Iteration  20: 0.063 s/op
+
+
+Result "com.baeldung.primitive.IntPrimitiveLookup.findPosition":
+  0.055 ±(99.9%) 0.011 s/op [Average]
+  (min, avg, max) = (0.038, 0.055, 0.083), stdev = 0.012
+  CI (99.9%): [0.045, 0.066] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:45
+
+Benchmark                        Mode  Cnt  Score   Error  Units
+IntPrimitiveLookup.findPosition  avgt   20  0.055 ± 0.011   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.IntegerWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.068 s/op
+# Warmup Iteration   2: 0.057 s/op
+# Warmup Iteration   3: 0.059 s/op
+# Warmup Iteration   4: 0.060 s/op
+# Warmup Iteration   5: 0.056 s/op
+# Warmup Iteration   6: 0.054 s/op
+# Warmup Iteration   7: 0.091 s/op
+# Warmup Iteration   8: 0.093 s/op
+# Warmup Iteration   9: 0.102 s/op
+# Warmup Iteration  10: 0.133 s/op
+# Warmup Iteration  11: 0.102 s/op
+# Warmup Iteration  12: 0.124 s/op
+# Warmup Iteration  13: 0.086 s/op
+# Warmup Iteration  14: 0.086 s/op
+# Warmup Iteration  15: 0.096 s/op
+# Warmup Iteration  16: 0.115 s/op
+# Warmup Iteration  17: 0.064 s/op
+# Warmup Iteration  18: 0.078 s/op
+# Warmup Iteration  19: 0.075 s/op
+# Warmup Iteration  20: 0.075 s/op
+Iteration   1: 0.084 s/op
+Iteration   2: 0.120 s/op
+Iteration   3: 0.105 s/op
+Iteration   4: 0.102 s/op
+Iteration   5: 0.107 s/op
+Iteration   6: 0.114 s/op
+Iteration   7: 0.100 s/op
+Iteration   8: 0.101 s/op
+Iteration   9: 0.114 s/op
+Iteration  10: 0.102 s/op
+Iteration  11: 0.125 s/op
+Iteration  12: 0.114 s/op
+Iteration  13: 0.120 s/op
+Iteration  14: 0.106 s/op
+Iteration  15: 0.129 s/op
+Iteration  16: 0.126 s/op
+Iteration  17: 0.145 s/op
+Iteration  18: 0.128 s/op
+Iteration  19: 0.112 s/op
+Iteration  20: 0.115 s/op
+
+
+Result "com.baeldung.primitive.IntegerWrapperLookup.findPosition":
+  0.113 ±(99.9%) 0.012 s/op [Average]
+  (min, avg, max) = (0.084, 0.113, 0.145), stdev = 0.014
+  CI (99.9%): [0.102, 0.125] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+IntegerWrapperLookup.findPosition  avgt   20  0.113 ± 0.012   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.FloatPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.123 s/op
+# Warmup Iteration   2: 0.126 s/op
+# Warmup Iteration   3: 0.102 s/op
+# Warmup Iteration   4: 0.116 s/op
+# Warmup Iteration   5: 0.117 s/op
+# Warmup Iteration   6: 0.148 s/op
+# Warmup Iteration   7: 0.173 s/op
+# Warmup Iteration   8: 0.155 s/op
+# Warmup Iteration   9: 0.148 s/op
+# Warmup Iteration  10: 0.137 s/op
+# Warmup Iteration  11: 0.131 s/op
+# Warmup Iteration  12: 0.154 s/op
+# Warmup Iteration  13: 0.132 s/op
+# Warmup Iteration  14: 0.111 s/op
+# Warmup Iteration  15: 0.072 s/op
+# Warmup Iteration  16: 0.079 s/op
+# Warmup Iteration  17: 0.109 s/op
+# Warmup Iteration  18: 0.107 s/op
+# Warmup Iteration  19: 0.126 s/op
+# Warmup Iteration  20: 0.099 s/op
+Iteration   1: 0.114 s/op
+Iteration   2: 0.116 s/op
+Iteration   3: 0.099 s/op
+Iteration   4: 0.108 s/op
+Iteration   5: 0.117 s/op
+Iteration   6: 0.072 s/op
+Iteration   7: 0.070 s/op
+Iteration   8: 0.063 s/op
+Iteration   9: 0.078 s/op
+Iteration  10: 0.068 s/op
+Iteration  11: 0.071 s/op
+Iteration  12: 0.082 s/op
+Iteration  13: 0.087 s/op
+Iteration  14: 0.080 s/op
+Iteration  15: 0.065 s/op
+Iteration  16: 0.066 s/op
+Iteration  17: 0.094 s/op
+Iteration  18: 0.066 s/op
+Iteration  19: 0.078 s/op
+Iteration  20: 0.061 s/op
+
+
+Result "com.baeldung.primitive.FloatPrimitiveLookup.findPosition":
+  0.083 ±(99.9%) 0.016 s/op [Average]
+  (min, avg, max) = (0.061, 0.083, 0.117), stdev = 0.019
+  CI (99.9%): [0.066, 0.099] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:44
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+FloatPrimitiveLookup.findPosition  avgt   20  0.083 ± 0.016   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.FloatWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.159 s/op
+# Warmup Iteration   2: 0.164 s/op
+# Warmup Iteration   3: 0.153 s/op
+# Warmup Iteration   4: 0.160 s/op
+# Warmup Iteration   5: 0.156 s/op
+# Warmup Iteration   6: 0.160 s/op
+# Warmup Iteration   7: 0.157 s/op
+# Warmup Iteration   8: 0.155 s/op
+# Warmup Iteration   9: 0.153 s/op
+# Warmup Iteration  10: 0.158 s/op
+# Warmup Iteration  11: 0.161 s/op
+# Warmup Iteration  12: 0.199 s/op
+# Warmup Iteration  13: 0.283 s/op
+# Warmup Iteration  14: 0.256 s/op
+# Warmup Iteration  15: 0.271 s/op
+# Warmup Iteration  16: 0.306 s/op
+# Warmup Iteration  17: 0.271 s/op
+# Warmup Iteration  18: 0.184 s/op
+# Warmup Iteration  19: 0.160 s/op
+# Warmup Iteration  20: 0.159 s/op
+Iteration   1: 0.160 s/op
+Iteration   2: 0.209 s/op
+Iteration   3: 0.230 s/op
+Iteration   4: 0.163 s/op
+Iteration   5: 0.170 s/op
+Iteration   6: 0.158 s/op
+Iteration   7: 0.175 s/op
+Iteration   8: 0.210 s/op
+Iteration   9: 0.163 s/op
+Iteration  10: 0.160 s/op
+Iteration  11: 0.160 s/op
+Iteration  12: 0.204 s/op
+Iteration  13: 0.173 s/op
+Iteration  14: 0.156 s/op
+Iteration  15: 0.160 s/op
+Iteration  16: 0.158 s/op
+Iteration  17: 0.169 s/op
+Iteration  18: 0.155 s/op
+Iteration  19: 0.158 s/op
+Iteration  20: 0.163 s/op
+
+
+Result "com.baeldung.primitive.FloatWrapperLookup.findPosition":
+  0.173 ±(99.9%) 0.019 s/op [Average]
+  (min, avg, max) = (0.155, 0.173, 0.230), stdev = 0.022
+  CI (99.9%): [0.154, 0.192] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:42
+
+Benchmark                        Mode  Cnt  Score   Error  Units
+FloatWrapperLookup.findPosition  avgt   20  0.173 ± 0.019   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.DoublePrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.075 s/op
+# Warmup Iteration   2: 0.071 s/op
+# Warmup Iteration   3: 0.069 s/op
+# Warmup Iteration   4: 0.068 s/op
+# Warmup Iteration   5: 0.071 s/op
+# Warmup Iteration   6: 0.073 s/op
+# Warmup Iteration   7: 0.067 s/op
+# Warmup Iteration   8: 0.070 s/op
+# Warmup Iteration   9: 0.070 s/op
+# Warmup Iteration  10: 0.070 s/op
+# Warmup Iteration  11: 0.092 s/op
+# Warmup Iteration  12: 0.119 s/op
+# Warmup Iteration  13: 0.106 s/op
+# Warmup Iteration  14: 0.073 s/op
+# Warmup Iteration  15: 0.073 s/op
+# Warmup Iteration  16: 0.089 s/op
+# Warmup Iteration  17: 0.070 s/op
+# Warmup Iteration  18: 0.071 s/op
+# Warmup Iteration  19: 0.069 s/op
+# Warmup Iteration  20: 0.072 s/op
+Iteration   1: 0.077 s/op
+Iteration   2: 0.074 s/op
+Iteration   3: 0.073 s/op
+Iteration   4: 0.088 s/op
+Iteration   5: 0.100 s/op
+Iteration   6: 0.115 s/op
+Iteration   7: 0.121 s/op
+Iteration   8: 0.109 s/op
+Iteration   9: 0.111 s/op
+Iteration  10: 0.109 s/op
+Iteration  11: 0.117 s/op
+Iteration  12: 0.130 s/op
+Iteration  13: 0.116 s/op
+Iteration  14: 0.119 s/op
+Iteration  15: 0.121 s/op
+Iteration  16: 0.117 s/op
+Iteration  17: 0.128 s/op
+Iteration  18: 0.130 s/op
+Iteration  19: 0.117 s/op
+Iteration  20: 0.120 s/op
+
+
+Result "com.baeldung.primitive.DoublePrimitiveLookup.findPosition":
+  0.110 ±(99.9%) 0.016 s/op [Average]
+  (min, avg, max) = (0.073, 0.110, 0.130), stdev = 0.018
+  CI (99.9%): [0.094, 0.125] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:44
+
+Benchmark                           Mode  Cnt  Score   Error  Units
+DoublePrimitiveLookup.findPosition  avgt   20  0.110 ± 0.016   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.DoubleWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.343 s/op
+# Warmup Iteration   2: 0.238 s/op
+# Warmup Iteration   3: 0.223 s/op
+# Warmup Iteration   4: 0.237 s/op
+# Warmup Iteration   5: 0.265 s/op
+# Warmup Iteration   6: 0.279 s/op
+# Warmup Iteration   7: 0.250 s/op
+# Warmup Iteration   8: 0.251 s/op
+# Warmup Iteration   9: 0.232 s/op
+# Warmup Iteration  10: 0.236 s/op
+# Warmup Iteration  11: 0.238 s/op
+# Warmup Iteration  12: 0.230 s/op
+# Warmup Iteration  13: 0.225 s/op
+# Warmup Iteration  14: 0.231 s/op
+# Warmup Iteration  15: 0.242 s/op
+# Warmup Iteration  16: 0.239 s/op
+# Warmup Iteration  17: 0.238 s/op
+# Warmup Iteration  18: 0.227 s/op
+# Warmup Iteration  19: 0.236 s/op
+# Warmup Iteration  20: 0.239 s/op
+Iteration   1: 0.244 s/op
+Iteration   2: 0.237 s/op
+Iteration   3: 0.242 s/op
+Iteration   4: 0.238 s/op
+Iteration   5: 0.241 s/op
+Iteration   6: 0.237 s/op
+Iteration   7: 0.237 s/op
+Iteration   8: 0.240 s/op
+Iteration   9: 0.223 s/op
+Iteration  10: 0.216 s/op
+Iteration  11: 0.218 s/op
+Iteration  12: 0.212 s/op
+Iteration  13: 0.216 s/op
+Iteration  14: 0.222 s/op
+Iteration  15: 0.231 s/op
+Iteration  16: 0.225 s/op
+Iteration  17: 0.225 s/op
+Iteration  18: 0.228 s/op
+Iteration  19: 0.217 s/op
+Iteration  20: 0.221 s/op
+
+
+Result "com.baeldung.primitive.DoubleWrapperLookup.findPosition":
+  0.228 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.212, 0.228, 0.244), stdev = 0.010
+  CI (99.9%): [0.220, 0.237] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:44
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+DoubleWrapperLookup.findPosition  avgt   20  0.228 ± 0.009   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.ShortPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.055 s/op
+# Warmup Iteration   2: 0.055 s/op
+# Warmup Iteration   3: 0.056 s/op
+# Warmup Iteration   4: 0.051 s/op
+# Warmup Iteration   5: 0.048 s/op
+# Warmup Iteration   6: 0.037 s/op
+# Warmup Iteration   7: 0.036 s/op
+# Warmup Iteration   8: 0.038 s/op
+# Warmup Iteration   9: 0.038 s/op
+# Warmup Iteration  10: 0.048 s/op
+# Warmup Iteration  11: 0.051 s/op
+# Warmup Iteration  12: 0.040 s/op
+# Warmup Iteration  13: 0.037 s/op
+# Warmup Iteration  14: 0.042 s/op
+# Warmup Iteration  15: 0.044 s/op
+# Warmup Iteration  16: 0.050 s/op
+# Warmup Iteration  17: 0.040 s/op
+# Warmup Iteration  18: 0.038 s/op
+# Warmup Iteration  19: 0.039 s/op
+# Warmup Iteration  20: 0.037 s/op
+Iteration   1: 0.037 s/op
+Iteration   2: 0.037 s/op
+Iteration   3: 0.037 s/op
+Iteration   4: 0.037 s/op
+Iteration   5: 0.038 s/op
+Iteration   6: 0.037 s/op
+Iteration   7: 0.037 s/op
+Iteration   8: 0.038 s/op
+Iteration   9: 0.037 s/op
+Iteration  10: 0.036 s/op
+Iteration  11: 0.038 s/op
+Iteration  12: 0.038 s/op
+Iteration  13: 0.038 s/op
+Iteration  14: 0.037 s/op
+Iteration  15: 0.037 s/op
+Iteration  16: 0.037 s/op
+Iteration  17: 0.038 s/op
+Iteration  18: 0.038 s/op
+Iteration  19: 0.038 s/op
+Iteration  20: 0.036 s/op
+
+
+Result "com.baeldung.primitive.ShortPrimitiveLookup.findPosition":
+  0.037 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.036, 0.037, 0.038), stdev = 0.001
+  CI (99.9%): [0.037, 0.038] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                          Mode  Cnt  Score    Error  Units
+ShortPrimitiveLookup.findPosition  avgt   20  0.037 ±  0.001   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.ShortWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.070 s/op
+# Warmup Iteration   2: 0.065 s/op
+# Warmup Iteration   3: 0.063 s/op
+# Warmup Iteration   4: 0.065 s/op
+# Warmup Iteration   5: 0.065 s/op
+# Warmup Iteration   6: 0.066 s/op
+# Warmup Iteration   7: 0.063 s/op
+# Warmup Iteration   8: 0.068 s/op
+# Warmup Iteration   9: 0.062 s/op
+# Warmup Iteration  10: 0.064 s/op
+# Warmup Iteration  11: 0.063 s/op
+# Warmup Iteration  12: 0.061 s/op
+# Warmup Iteration  13: 0.061 s/op
+# Warmup Iteration  14: 0.072 s/op
+# Warmup Iteration  15: 0.100 s/op
+# Warmup Iteration  16: 0.095 s/op
+# Warmup Iteration  17: 0.088 s/op
+# Warmup Iteration  18: 0.095 s/op
+# Warmup Iteration  19: 0.094 s/op
+# Warmup Iteration  20: 0.089 s/op
+Iteration   1: 0.074 s/op
+Iteration   2: 0.062 s/op
+Iteration   3: 0.062 s/op
+Iteration   4: 0.065 s/op
+Iteration   5: 0.064 s/op
+Iteration   6: 0.092 s/op
+Iteration   7: 0.079 s/op
+Iteration   8: 0.067 s/op
+Iteration   9: 0.067 s/op
+Iteration  10: 0.073 s/op
+Iteration  11: 0.086 s/op
+Iteration  12: 0.088 s/op
+Iteration  13: 0.068 s/op
+Iteration  14: 0.064 s/op
+Iteration  15: 0.066 s/op
+Iteration  16: 0.054 s/op
+Iteration  17: 0.080 s/op
+Iteration  18: 0.079 s/op
+Iteration  19: 0.056 s/op
+Iteration  20: 0.082 s/op
+
+
+Result "com.baeldung.primitive.ShortWrapperLookup.findPosition":
+  0.071 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.054, 0.071, 0.092), stdev = 0.011
+  CI (99.9%): [0.062, 0.081] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                        Mode  Cnt  Score   Error  Units
+ShortWrapperLookup.findPosition  avgt   20  0.071 ± 0.009   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.BooleanPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.035 s/op
+# Warmup Iteration   2: 0.032 s/op
+# Warmup Iteration   3: 0.032 s/op
+# Warmup Iteration   4: 0.031 s/op
+# Warmup Iteration   5: 0.032 s/op
+# Warmup Iteration   6: 0.032 s/op
+# Warmup Iteration   7: 0.031 s/op
+# Warmup Iteration   8: 0.031 s/op
+# Warmup Iteration   9: 0.033 s/op
+# Warmup Iteration  10: 0.033 s/op
+# Warmup Iteration  11: 0.036 s/op
+# Warmup Iteration  12: 0.031 s/op
+# Warmup Iteration  13: 0.031 s/op
+# Warmup Iteration  14: 0.035 s/op
+# Warmup Iteration  15: 0.034 s/op
+# Warmup Iteration  16: 0.034 s/op
+# Warmup Iteration  17: 0.048 s/op
+# Warmup Iteration  18: 0.068 s/op
+# Warmup Iteration  19: 0.051 s/op
+# Warmup Iteration  20: 0.033 s/op
+Iteration   1: 0.034 s/op
+Iteration   2: 0.036 s/op
+Iteration   3: 0.033 s/op
+Iteration   4: 0.037 s/op
+Iteration   5: 0.032 s/op
+Iteration   6: 0.031 s/op
+Iteration   7: 0.031 s/op
+Iteration   8: 0.031 s/op
+Iteration   9: 0.032 s/op
+Iteration  10: 0.033 s/op
+Iteration  11: 0.047 s/op
+Iteration  12: 0.052 s/op
+Iteration  13: 0.047 s/op
+Iteration  14: 0.054 s/op
+Iteration  15: 0.055 s/op
+Iteration  16: 0.064 s/op
+Iteration  17: 0.056 s/op
+Iteration  18: 0.036 s/op
+Iteration  19: 0.037 s/op
+Iteration  20: 0.036 s/op
+
+
+Result "com.baeldung.primitive.BooleanPrimitiveLookup.findPosition":
+  0.041 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.031, 0.041, 0.064), stdev = 0.010
+  CI (99.9%): [0.032, 0.050] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                            Mode  Cnt  Score   Error  Units
+BooleanPrimitiveLookup.findPosition  avgt   20  0.041 ± 0.009   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.BooleanWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.094 s/op
+# Warmup Iteration   2: 0.094 s/op
+# Warmup Iteration   3: 0.087 s/op
+# Warmup Iteration   4: 0.091 s/op
+# Warmup Iteration   5: 0.084 s/op
+# Warmup Iteration   6: 0.063 s/op
+# Warmup Iteration   7: 0.065 s/op
+# Warmup Iteration   8: 0.064 s/op
+# Warmup Iteration   9: 0.094 s/op
+# Warmup Iteration  10: 0.108 s/op
+# Warmup Iteration  11: 0.076 s/op
+# Warmup Iteration  12: 0.081 s/op
+# Warmup Iteration  13: 0.077 s/op
+# Warmup Iteration  14: 0.076 s/op
+# Warmup Iteration  15: 0.071 s/op
+# Warmup Iteration  16: 0.084 s/op
+# Warmup Iteration  17: 0.079 s/op
+# Warmup Iteration  18: 0.097 s/op
+# Warmup Iteration  19: 0.107 s/op
+# Warmup Iteration  20: 0.085 s/op
+Iteration   1: 0.078 s/op
+Iteration   2: 0.058 s/op
+Iteration   3: 0.057 s/op
+Iteration   4: 0.056 s/op
+Iteration   5: 0.066 s/op
+Iteration   6: 0.063 s/op
+Iteration   7: 0.052 s/op
+Iteration   8: 0.053 s/op
+Iteration   9: 0.051 s/op
+Iteration  10: 0.060 s/op
+Iteration  11: 0.050 s/op
+Iteration  12: 0.051 s/op
+Iteration  13: 0.049 s/op
+Iteration  14: 0.053 s/op
+Iteration  15: 0.053 s/op
+Iteration  16: 0.050 s/op
+Iteration  17: 0.050 s/op
+Iteration  18: 0.050 s/op
+Iteration  19: 0.051 s/op
+Iteration  20: 0.052 s/op
+
+
+Result "com.baeldung.primitive.BooleanWrapperLookup.findPosition":
+  0.055 ±(99.9%) 0.006 s/op [Average]
+  (min, avg, max) = (0.049, 0.055, 0.078), stdev = 0.007
+  CI (99.9%): [0.049, 0.061] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+BooleanWrapperLookup.findPosition  avgt   20  0.055 ± 0.006   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.CharPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.033 s/op
+# Warmup Iteration   2: 0.031 s/op
+# Warmup Iteration   3: 0.031 s/op
+# Warmup Iteration   4: 0.032 s/op
+# Warmup Iteration   5: 0.045 s/op
+# Warmup Iteration   6: 0.052 s/op
+# Warmup Iteration   7: 0.052 s/op
+# Warmup Iteration   8: 0.048 s/op
+# Warmup Iteration   9: 0.052 s/op
+# Warmup Iteration  10: 0.048 s/op
+# Warmup Iteration  11: 0.051 s/op
+# Warmup Iteration  12: 0.055 s/op
+# Warmup Iteration  13: 0.061 s/op
+# Warmup Iteration  14: 0.064 s/op
+# Warmup Iteration  15: 0.070 s/op
+# Warmup Iteration  16: 0.066 s/op
+# Warmup Iteration  17: 0.057 s/op
+# Warmup Iteration  18: 0.062 s/op
+# Warmup Iteration  19: 0.062 s/op
+# Warmup Iteration  20: 0.066 s/op
+Iteration   1: 0.067 s/op
+Iteration   2: 0.068 s/op
+Iteration   3: 0.061 s/op
+Iteration   4: 0.065 s/op
+Iteration   5: 0.062 s/op
+Iteration   6: 0.051 s/op
+Iteration   7: 0.046 s/op
+Iteration   8: 0.050 s/op
+Iteration   9: 0.049 s/op
+Iteration  10: 0.051 s/op
+Iteration  11: 0.049 s/op
+Iteration  12: 0.051 s/op
+Iteration  13: 0.048 s/op
+Iteration  14: 0.049 s/op
+Iteration  15: 0.050 s/op
+Iteration  16: 0.051 s/op
+Iteration  17: 0.053 s/op
+Iteration  18: 0.051 s/op
+Iteration  19: 0.050 s/op
+Iteration  20: 0.050 s/op
+
+
+Result "com.baeldung.primitive.CharPrimitiveLookup.findPosition":
+  0.053 ±(99.9%) 0.006 s/op [Average]
+  (min, avg, max) = (0.046, 0.053, 0.068), stdev = 0.007
+  CI (99.9%): [0.047, 0.059] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+CharPrimitiveLookup.findPosition  avgt   20  0.053 ± 0.006   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.CharacterWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.094 s/op
+# Warmup Iteration   2: 0.088 s/op
+# Warmup Iteration   3: 0.089 s/op
+# Warmup Iteration   4: 0.083 s/op
+# Warmup Iteration   5: 0.091 s/op
+# Warmup Iteration   6: 0.080 s/op
+# Warmup Iteration   7: 0.080 s/op
+# Warmup Iteration   8: 0.084 s/op
+# Warmup Iteration   9: 0.091 s/op
+# Warmup Iteration  10: 0.086 s/op
+# Warmup Iteration  11: 0.089 s/op
+# Warmup Iteration  12: 0.086 s/op
+# Warmup Iteration  13: 0.079 s/op
+# Warmup Iteration  14: 0.081 s/op
+# Warmup Iteration  15: 0.087 s/op
+# Warmup Iteration  16: 0.082 s/op
+# Warmup Iteration  17: 0.081 s/op
+# Warmup Iteration  18: 0.092 s/op
+# Warmup Iteration  19: 0.091 s/op
+# Warmup Iteration  20: 0.111 s/op
+Iteration   1: 0.103 s/op
+Iteration   2: 0.091 s/op
+Iteration   3: 0.085 s/op
+Iteration   4: 0.085 s/op
+Iteration   5: 0.080 s/op
+Iteration   6: 0.087 s/op
+Iteration   7: 0.088 s/op
+Iteration   8: 0.078 s/op
+Iteration   9: 0.091 s/op
+Iteration  10: 0.097 s/op
+Iteration  11: 0.092 s/op
+Iteration  12: 0.080 s/op
+Iteration  13: 0.087 s/op
+Iteration  14: 0.094 s/op
+Iteration  15: 0.088 s/op
+Iteration  16: 0.084 s/op
+Iteration  17: 0.090 s/op
+Iteration  18: 0.081 s/op
+Iteration  19: 0.078 s/op
+Iteration  20: 0.083 s/op
+
+
+Result "com.baeldung.primitive.CharacterWrapperLookup.findPosition":
+  0.087 ±(99.9%) 0.006 s/op [Average]
+  (min, avg, max) = (0.078, 0.087, 0.103), stdev = 0.007
+  CI (99.9%): [0.081, 0.093] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:44
+
+Benchmark                            Mode  Cnt  Score   Error  Units
+CharacterWrapperLookup.findPosition  avgt   20  0.087 ± 0.006   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.BytePrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.047 s/op
+# Warmup Iteration   2: 0.053 s/op
+# Warmup Iteration   3: 0.046 s/op
+# Warmup Iteration   4: 0.049 s/op
+# Warmup Iteration   5: 0.047 s/op
+# Warmup Iteration   6: 0.045 s/op
+# Warmup Iteration   7: 0.054 s/op
+# Warmup Iteration   8: 0.053 s/op
+# Warmup Iteration   9: 0.052 s/op
+# Warmup Iteration  10: 0.051 s/op
+# Warmup Iteration  11: 0.050 s/op
+# Warmup Iteration  12: 0.048 s/op
+# Warmup Iteration  13: 0.046 s/op
+# Warmup Iteration  14: 0.050 s/op
+# Warmup Iteration  15: 0.057 s/op
+# Warmup Iteration  16: 0.051 s/op
+# Warmup Iteration  17: 0.052 s/op
+# Warmup Iteration  18: 0.045 s/op
+# Warmup Iteration  19: 0.046 s/op
+# Warmup Iteration  20: 0.051 s/op
+Iteration   1: 0.049 s/op
+Iteration   2: 0.050 s/op
+Iteration   3: 0.046 s/op
+Iteration   4: 0.047 s/op
+Iteration   5: 0.048 s/op
+Iteration   6: 0.050 s/op
+Iteration   7: 0.048 s/op
+Iteration   8: 0.047 s/op
+Iteration   9: 0.051 s/op
+Iteration  10: 0.076 s/op
+Iteration  11: 0.056 s/op
+Iteration  12: 0.074 s/op
+Iteration  13: 0.050 s/op
+Iteration  14: 0.053 s/op
+Iteration  15: 0.048 s/op
+Iteration  16: 0.053 s/op
+Iteration  17: 0.045 s/op
+Iteration  18: 0.044 s/op
+Iteration  19: 0.046 s/op
+Iteration  20: 0.044 s/op
+
+
+Result "com.baeldung.primitive.BytePrimitiveLookup.findPosition":
+  0.051 ±(99.9%) 0.007 s/op [Average]
+  (min, avg, max) = (0.044, 0.051, 0.076), stdev = 0.009
+  CI (99.9%): [0.044, 0.059] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+BytePrimitiveLookup.findPosition  avgt   20  0.051 ± 0.007   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.ByteWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.084 s/op
+# Warmup Iteration   2: 0.078 s/op
+# Warmup Iteration   3: 0.084 s/op
+# Warmup Iteration   4: 0.090 s/op
+# Warmup Iteration   5: 0.094 s/op
+# Warmup Iteration   6: 0.083 s/op
+# Warmup Iteration   7: 0.091 s/op
+# Warmup Iteration   8: 0.084 s/op
+# Warmup Iteration   9: 0.078 s/op
+# Warmup Iteration  10: 0.090 s/op
+# Warmup Iteration  11: 0.080 s/op
+# Warmup Iteration  12: 0.078 s/op
+# Warmup Iteration  13: 0.085 s/op
+# Warmup Iteration  14: 0.086 s/op
+# Warmup Iteration  15: 0.078 s/op
+# Warmup Iteration  16: 0.093 s/op
+# Warmup Iteration  17: 0.101 s/op
+# Warmup Iteration  18: 0.079 s/op
+# Warmup Iteration  19: 0.101 s/op
+# Warmup Iteration  20: 0.084 s/op
+Iteration   1: 0.088 s/op
+Iteration   2: 0.096 s/op
+Iteration   3: 0.078 s/op
+Iteration   4: 0.086 s/op
+Iteration   5: 0.084 s/op
+Iteration   6: 0.089 s/op
+Iteration   7: 0.091 s/op
+Iteration   8: 0.080 s/op
+Iteration   9: 0.084 s/op
+Iteration  10: 0.075 s/op
+Iteration  11: 0.077 s/op
+Iteration  12: 0.087 s/op
+Iteration  13: 0.086 s/op
+Iteration  14: 0.082 s/op
+Iteration  15: 0.080 s/op
+Iteration  16: 0.090 s/op
+Iteration  17: 0.082 s/op
+Iteration  18: 0.089 s/op
+Iteration  19: 0.085 s/op
+Iteration  20: 0.088 s/op
+
+
+Result "com.baeldung.primitive.ByteWrapperLookup.findPosition":
+  0.085 ±(99.9%) 0.005 s/op [Average]
+  (min, avg, max) = (0.075, 0.085, 0.096), stdev = 0.005
+  CI (99.9%): [0.080, 0.090] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:44
+
+Benchmark                       Mode  Cnt  Score   Error  Units
+ByteWrapperLookup.findPosition  avgt   20  0.085 ± 0.005   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.LongPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.069 s/op
+# Warmup Iteration   2: 0.075 s/op
+# Warmup Iteration   3: 0.062 s/op
+# Warmup Iteration   4: 0.068 s/op
+# Warmup Iteration   5: 0.065 s/op
+# Warmup Iteration   6: 0.066 s/op
+# Warmup Iteration   7: 0.062 s/op
+# Warmup Iteration   8: 0.060 s/op
+# Warmup Iteration   9: 0.065 s/op
+# Warmup Iteration  10: 0.070 s/op
+# Warmup Iteration  11: 0.066 s/op
+# Warmup Iteration  12: 0.069 s/op
+# Warmup Iteration  13: 0.066 s/op
+# Warmup Iteration  14: 0.070 s/op
+# Warmup Iteration  15: 0.070 s/op
+# Warmup Iteration  16: 0.064 s/op
+# Warmup Iteration  17: 0.070 s/op
+# Warmup Iteration  18: 0.066 s/op
+# Warmup Iteration  19: 0.072 s/op
+# Warmup Iteration  20: 0.068 s/op
+Iteration   1: 0.068 s/op
+Iteration   2: 0.067 s/op
+Iteration   3: 0.066 s/op
+Iteration   4: 0.080 s/op
+Iteration   5: 0.072 s/op
+Iteration   6: 0.073 s/op
+Iteration   7: 0.067 s/op
+Iteration   8: 0.067 s/op
+Iteration   9: 0.069 s/op
+Iteration  10: 0.070 s/op
+Iteration  11: 0.067 s/op
+Iteration  12: 0.066 s/op
+Iteration  13: 0.068 s/op
+Iteration  14: 0.065 s/op
+Iteration  15: 0.068 s/op
+Iteration  16: 0.069 s/op
+Iteration  17: 0.072 s/op
+Iteration  18: 0.067 s/op
+Iteration  19: 0.069 s/op
+Iteration  20: 0.071 s/op
+
+
+Result "com.baeldung.primitive.LongPrimitiveLookup.findPosition":
+  0.069 ±(99.9%) 0.003 s/op [Average]
+  (min, avg, max) = (0.065, 0.069, 0.080), stdev = 0.003
+  CI (99.9%): [0.066, 0.072] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:44
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+LongPrimitiveLookup.findPosition  avgt   20  0.069 ± 0.003   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=53343:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.LongWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.094 s/op
+# Warmup Iteration   2: 0.097 s/op
+# Warmup Iteration   3: 0.090 s/op
+# Warmup Iteration   4: 0.097 s/op
+# Warmup Iteration   5: 0.089 s/op
+# Warmup Iteration   6: 0.094 s/op
+# Warmup Iteration   7: 0.095 s/op
+# Warmup Iteration   8: 0.085 s/op
+# Warmup Iteration   9: 0.079 s/op
+# Warmup Iteration  10: 0.083 s/op
+# Warmup Iteration  11: 0.084 s/op
+# Warmup Iteration  12: 0.130 s/op
+# Warmup Iteration  13: 0.130 s/op
+# Warmup Iteration  14: 0.089 s/op
+# Warmup Iteration  15: 0.097 s/op
+# Warmup Iteration  16: 0.091 s/op
+# Warmup Iteration  17: 0.092 s/op
+# Warmup Iteration  18: 0.095 s/op
+# Warmup Iteration  19: 0.097 s/op
+# Warmup Iteration  20: 0.086 s/op
+Iteration   1: 0.088 s/op
+Iteration   2: 0.089 s/op
+Iteration   3: 0.081 s/op
+Iteration   4: 0.094 s/op
+Iteration   5: 0.086 s/op
+Iteration   6: 0.085 s/op
+Iteration   7: 0.085 s/op
+Iteration   8: 0.090 s/op
+Iteration   9: 0.081 s/op
+Iteration  10: 0.099 s/op
+Iteration  11: 0.113 s/op
+Iteration  12: 0.096 s/op
+Iteration  13: 0.089 s/op
+Iteration  14: 0.089 s/op
+Iteration  15: 0.087 s/op
+Iteration  16: 0.088 s/op
+Iteration  17: 0.082 s/op
+Iteration  18: 0.085 s/op
+Iteration  19: 0.079 s/op
+Iteration  20: 0.075 s/op
+
+
+Result "com.baeldung.primitive.LongWrapperLookup.findPosition":
+  0.088 ±(99.9%) 0.007 s/op [Average]
+  (min, avg, max) = (0.075, 0.088, 0.113), stdev = 0.008
+  CI (99.9%): [0.081, 0.095] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:44
+
+Benchmark                       Mode  Cnt  Score   Error  Units
+LongWrapperLookup.findPosition  avgt   20  0.088 ± 0.007   s/op

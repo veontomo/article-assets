@@ -1,0 +1,200 @@
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5263157894736843
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.2954545454545454
+Wrapper Boolean first
+Boolean/boolean: 1.5263157894736843
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.4634146341463414
+Wrapper Boolean first
+Boolean/boolean: 1.6388888888888888
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.6756756756756757
+Primitive boolean first
+Boolean/boolean: 1.5
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.6111111111111112
+Primitive boolean first
+Boolean/boolean: 1.5833333333333333
+Wrapper Boolean first
+Boolean/boolean: 1.5833333333333333
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.6111111111111112
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.6388888888888888
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.6111111111111112
+Wrapper Boolean first
+Boolean/boolean: 1.6111111111111112
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.6111111111111112
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5945945945945945
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.7777777777777777
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5526315789473684
+Wrapper Boolean first
+Boolean/boolean: 1.5263157894736843
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.6388888888888888
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5945945945945945
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.837837837837838
+Wrapper Boolean first
+Boolean/boolean: 1.5945945945945945
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.4871794871794872
+Wrapper Boolean first
+Boolean/boolean: 1.0357142857142858
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.6111111111111112
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.6111111111111112
+Wrapper Boolean first
+Boolean/boolean: 1.6111111111111112
+Wrapper Boolean first
+Boolean/boolean: 1.7297297297297298
+Wrapper Boolean first
+Boolean/boolean: 1.6111111111111112
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.372093023255814
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.380952380952381
+Wrapper Boolean first
+Boolean/boolean: 1.5263157894736843
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.5675675675675675
+Wrapper Boolean first
+Boolean/boolean: 1.5405405405405406
+Wrapper Boolean first
+Boolean/boolean: 1.5833333333333333
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675
+Primitive boolean first
+Boolean/boolean: 1.5405405405405406
+Primitive boolean first
+Boolean/boolean: 1.7222222222222223
+Primitive boolean first
+Boolean/boolean: 1.5945945945945945
+Wrapper Boolean first
+Boolean/boolean: 1.5675675675675675

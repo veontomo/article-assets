@@ -1,0 +1,200 @@
+Wrapper Long first
+Long/long: 1.3181818181818181
+Primitive long first
+Long/long: 1.4523809523809523
+Primitive long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.3181818181818181
+Primitive long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.4390243902439024
+Primitive long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.441860465116279
+Primitive long first
+Long/long: 1.2608695652173914
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.4285714285714286
+Primitive long first
+Long/long: 1.4090909090909092
+Wrapper Long first
+Long/long: 1.3409090909090908
+Primitive long first
+Long/long: 1.3111111111111111
+Wrapper Long first
+Long/long: 1.3863636363636365
+Primitive long first
+Long/long: 1.2608695652173914
+Wrapper Long first
+Long/long: 1.3863636363636365
+Wrapper Long first
+Long/long: 1.3478260869565217
+Wrapper Long first
+Long/long: 1.488888888888889
+Primitive long first
+Long/long: 1.2826086956521738
+Primitive long first
+Long/long: 1.2448979591836735
+Primitive long first
+Long/long: 1.2765957446808511
+Wrapper Long first
+Long/long: 1.5
+Wrapper Long first
+Long/long: 1.3636363636363635
+Primitive long first
+Long/long: 1.3181818181818181
+Primitive long first
+Long/long: 1.4318181818181819
+Primitive long first
+Long/long: 1.2608695652173914
+Primitive long first
+Long/long: 1.2916666666666667
+Primitive long first
+Long/long: 2.022222222222222
+Primitive long first
+Long/long: 1.3125
+Wrapper Long first
+Long/long: 0.7763157894736842
+Primitive long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3409090909090908
+Wrapper Long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.288888888888889
+Wrapper Long first
+Long/long: 1.3181818181818181
+Primitive long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3255813953488371
+Wrapper Long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.3409090909090908
+Wrapper Long first
+Long/long: 1.3181818181818181
+Primitive long first
+Long/long: 1.3953488372093024
+Primitive long first
+Long/long: 1.288888888888889
+Primitive long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.372093023255814
+Primitive long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.4047619047619047
+Wrapper Long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.4047619047619047
+Primitive long first
+Long/long: 1.372093023255814
+Wrapper Long first
+Long/long: 1.3953488372093024
+Primitive long first
+Long/long: 1.4047619047619047
+Primitive long first
+Long/long: 1.4047619047619047
+Wrapper Long first
+Long/long: 1.288888888888889
+Primitive long first
+Long/long: 1.4047619047619047
+Wrapper Long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.4047619047619047
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.4047619047619047
+Primitive long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.3255813953488371
+Primitive long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.4047619047619047
+Wrapper Long first
+Long/long: 1.3571428571428572
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.4047619047619047
+Primitive long first
+Long/long: 1.3488372093023255
+Wrapper Long first
+Long/long: 1.3255813953488371
+Primitive long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.4047619047619047
+Wrapper Long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.3488372093023255
+Primitive long first
+Long/long: 1.4047619047619047
+Primitive long first
+Long/long: 1.4047619047619047
+Primitive long first
+Long/long: 1.3953488372093024
+Primitive long first
+Long/long: 1.3571428571428572
+Primitive long first
+Long/long: 1.380952380952381
+Wrapper Long first
+Long/long: 1.3181818181818181
+Wrapper Long first
+Long/long: 1.380952380952381
+Primitive long first
+Long/long: 1.372093023255814
+Primitive long first
+Long/long: 1.4047619047619047

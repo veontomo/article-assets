@@ -1,0 +1,200 @@
+Wrapper Integer first
+Integer/int: 0.8787878787878788
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.3181818181818181
+Primitive int first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4871794871794872
+Primitive int first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.7105263157894737
+Primitive int first
+Integer/int: 1.475
+Wrapper Integer first
+Integer/int: 1.4146341463414633
+Primitive int first
+Integer/int: 1.5897435897435896
+Wrapper Integer first
+Integer/int: 1.3409090909090908
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.605263157894737
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4871794871794872
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.5
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5128205128205128
+Wrapper Integer first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4871794871794872
+Primitive int first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5675675675675675
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5128205128205128
+Wrapper Integer first
+Integer/int: 1.45
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5526315789473684
+Primitive int first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.5128205128205128
+Wrapper Integer first
+Integer/int: 1.3488372093023255
+Wrapper Integer first
+Integer/int: 1.4666666666666666
+Primitive int first
+Integer/int: 1.3478260869565217
+Wrapper Integer first
+Integer/int: 1.5526315789473684
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5384615384615385
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4615384615384615
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.641025641025641
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5
+Primitive int first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.4871794871794872
+Wrapper Integer first
+Integer/int: 1.5
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.4871794871794872
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5789473684210527
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5
+Wrapper Integer first
+Integer/int: 1.5675675675675675
+Wrapper Integer first
+Integer/int: 1.5526315789473684
+Wrapper Integer first
+Integer/int: 1.5789473684210527
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5128205128205128
+Primitive int first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.8974358974358974
+Wrapper Integer first
+Integer/int: 1.6590909090909092
+Wrapper Integer first
+Integer/int: 1.0144927536231885
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.5263157894736843
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.45
+Primitive int first
+Integer/int: 1.5
+Primitive int first
+Integer/int: 1.5263157894736843
+Wrapper Integer first
+Integer/int: 1.894736842105263

@@ -1,0 +1,200 @@
+Wrapper Byte first
+Byte/byte: 1.5405405405405406
+Wrapper Byte first
+Byte/byte: 1.6111111111111112
+Primitive byte first
+Byte/byte: 1.5945945945945945
+Primitive byte first
+Byte/byte: 2.27027027027027
+Wrapper Byte first
+Byte/byte: 1.4871794871794872
+Wrapper Byte first
+Byte/byte: 1.6111111111111112
+Wrapper Byte first
+Byte/byte: 1.5263157894736843
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.6111111111111112
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5405405405405406
+Primitive byte first
+Byte/byte: 1.5
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5405405405405406
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5405405405405406
+Primitive byte first
+Byte/byte: 1.5405405405405406
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.6111111111111112
+Wrapper Byte first
+Byte/byte: 1.5945945945945945
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5405405405405406
+Wrapper Byte first
+Byte/byte: 1.5526315789473684
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.6216216216216217
+Wrapper Byte first
+Byte/byte: 1.6216216216216217
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5405405405405406
+Wrapper Byte first
+Byte/byte: 1.5263157894736843
+Wrapper Byte first
+Byte/byte: 0.5631067961165048
+Wrapper Byte first
+Byte/byte: 1.5945945945945945
+Primitive byte first
+Byte/byte: 1.763157894736842
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.605263157894737
+Wrapper Byte first
+Byte/byte: 1.5405405405405406
+Wrapper Byte first
+Byte/byte: 1.5526315789473684
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.6111111111111112
+Primitive byte first
+Byte/byte: 1.5405405405405406
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.6216216216216217
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5405405405405406
+Wrapper Byte first
+Byte/byte: 1.475
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5263157894736843
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 2.2564102564102564
+Wrapper Byte first
+Byte/byte: 1.7027027027027026
+Wrapper Byte first
+Byte/byte: 2.4166666666666665
+Wrapper Byte first
+Byte/byte: 1.5384615384615385
+Primitive byte first
+Byte/byte: 1.4878048780487805
+Wrapper Byte first
+Byte/byte: 1.9148936170212767
+Wrapper Byte first
+Byte/byte: 1.4883720930232558
+Primitive byte first
+Byte/byte: 1.4545454545454546
+Wrapper Byte first
+Byte/byte: 1.6111111111111112
+Wrapper Byte first
+Byte/byte: 1.605263157894737
+Wrapper Byte first
+Byte/byte: 1.5945945945945945
+Primitive byte first
+Byte/byte: 1.5263157894736843
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.4871794871794872
+Wrapper Byte first
+Byte/byte: 1.6111111111111112
+Primitive byte first
+Byte/byte: 1.6111111111111112
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5833333333333333
+Primitive byte first
+Byte/byte: 1.5263157894736843
+Wrapper Byte first
+Byte/byte: 1.5945945945945945
+Wrapper Byte first
+Byte/byte: 1.5526315789473684
+Primitive byte first
+Byte/byte: 1.631578947368421
+Wrapper Byte first
+Byte/byte: 1.5945945945945945
+Wrapper Byte first
+Byte/byte: 1.6486486486486487
+Wrapper Byte first
+Byte/byte: 1.0169491525423728
+Primitive byte first
+Byte/byte: 1.925
+Wrapper Byte first
+Byte/byte: 1.5789473684210527
+Wrapper Byte first
+Byte/byte: 1.7567567567567568
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.6756756756756757
+Primitive byte first
+Byte/byte: 2.3513513513513513
+Wrapper Byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5263157894736843
+Wrapper Byte first
+Byte/byte: 1.6216216216216217
+Primitive byte first
+Byte/byte: 1.3488372093023255
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Primitive byte first
+Byte/byte: 1.5405405405405406
+Primitive byte first
+Byte/byte: 1.6111111111111112
+Primitive byte first
+Byte/byte: 1.4871794871794872
+Primitive byte first
+Byte/byte: 1.5675675675675675
+Wrapper Byte first
+Byte/byte: 1.5675675675675675

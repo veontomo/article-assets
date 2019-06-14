@@ -1,0 +1,913 @@
+"C:\Program Files\Java\jdk1.8.0_92\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\lib\idea_rt.jar=50903:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.1.5\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;F:\Users\Andrea\Documents\Eclipse\workspace\baeldung-tutorials\core-java-8\target\classes;C:\Users\Andrea\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Andrea\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Andrea\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Andrea\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Andrea\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Andrea\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Andrea\.m2\repository\org\openjdk\jmh\jmh-core\1.19\jmh-core-1.19.jar;C:\Users\Andrea\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\Andrea\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.19\jmh-generator-annprocess-1.19.jar;C:\Users\Andrea\.m2\repository\org\openjdk\jmh\jmh-generator-bytecode\1.19\jmh-generator-bytecode-1.19.jar;C:\Users\Andrea\.m2\repository\org\openjdk\jmh\jmh-generator-reflection\1.19\jmh-generator-reflection-1.19.jar;C:\Users\Andrea\.m2\repository\org\openjdk\jmh\jmh-generator-asm\1.19\jmh-generator-asm-1.19.jar;C:\Users\Andrea\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\Andrea\.m2\repository\com\codepoetics\protonpack\1.13\protonpack-1.13.jar;C:\Users\Andrea\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\Andrea\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\Andrea\.m2\repository\one\util\streamex\0.6.5\streamex-0.6.5.jar;C:\Users\Andrea\.m2\repository\joda-time\joda-time\2.10\joda-time-2.10.jar;C:\Users\Andrea\.m2\repository\org\aspectj\aspectjrt\1.8.9\aspectjrt-1.8.9.jar;C:\Users\Andrea\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\Andrea\.m2\repository\com\google\guava\guava\22.0\guava-22.0.jar;C:\Users\Andrea\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Andrea\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Andrea\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Andrea\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Andrea\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\Andrea\.m2\repository\ch\qos\logback\logback-classic\1.1.7\logback-classic-1.1.7.jar;C:\Users\Andrea\.m2\repository\ch\qos\logback\logback-core\1.1.7\logback-core-1.1.7.jar;C:\Users\Andrea\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.21\jcl-over-slf4j-1.7.21.jar" com.baeldung.primitive.BenchmarkRunner
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.IntPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.187 s/op
+# Warmup Iteration   2: 0.111 s/op
+# Warmup Iteration   3: 0.107 s/op
+# Warmup Iteration   4: 0.137 s/op
+# Warmup Iteration   5: 0.125 s/op
+# Warmup Iteration   6: 0.171 s/op
+# Warmup Iteration   7: 0.080 s/op
+# Warmup Iteration   8: 0.058 s/op
+# Warmup Iteration   9: 0.056 s/op
+# Warmup Iteration  10: 0.051 s/op
+# Warmup Iteration  11: 0.067 s/op
+# Warmup Iteration  12: 0.042 s/op
+# Warmup Iteration  13: 0.036 s/op
+# Warmup Iteration  14: 0.036 s/op
+# Warmup Iteration  15: 0.036 s/op
+# Warmup Iteration  16: 0.036 s/op
+# Warmup Iteration  17: 0.036 s/op
+# Warmup Iteration  18: 0.037 s/op
+# Warmup Iteration  19: 0.043 s/op
+# Warmup Iteration  20: 0.040 s/op
+Iteration   1: 0.038 s/op
+Iteration   2: 0.035 s/op
+Iteration   3: 0.036 s/op
+Iteration   4: 0.035 s/op
+Iteration   5: 0.035 s/op
+Iteration   6: 0.035 s/op
+Iteration   7: 0.035 s/op
+Iteration   8: 0.035 s/op
+Iteration   9: 0.035 s/op
+Iteration  10: 0.035 s/op
+Iteration  11: 0.035 s/op
+Iteration  12: 0.035 s/op
+Iteration  13: 0.035 s/op
+Iteration  14: 0.035 s/op
+Iteration  15: 0.035 s/op
+Iteration  16: 0.035 s/op
+Iteration  17: 0.035 s/op
+Iteration  18: 0.035 s/op
+Iteration  19: 0.035 s/op
+Iteration  20: 0.035 s/op
+
+
+Result "com.baeldung.primitive.IntPrimitiveLookup.findPosition":
+  0.035 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.035, 0.035, 0.038), stdev = 0.001
+  CI (99.9%): [0.034, 0.036] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:45
+
+Benchmark                        Mode  Cnt  Score   Error  Units
+IntPrimitiveLookup.findPosition  avgt   20  0.035 ± 0.001   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.IntegerWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.056 s/op
+# Warmup Iteration   2: 0.060 s/op
+# Warmup Iteration   3: 0.053 s/op
+# Warmup Iteration   4: 0.053 s/op
+# Warmup Iteration   5: 0.051 s/op
+# Warmup Iteration   6: 0.052 s/op
+# Warmup Iteration   7: 0.054 s/op
+# Warmup Iteration   8: 0.052 s/op
+# Warmup Iteration   9: 0.071 s/op
+# Warmup Iteration  10: 0.073 s/op
+# Warmup Iteration  11: 0.064 s/op
+# Warmup Iteration  12: 0.069 s/op
+# Warmup Iteration  13: 0.052 s/op
+# Warmup Iteration  14: 0.051 s/op
+# Warmup Iteration  15: 0.050 s/op
+# Warmup Iteration  16: 0.050 s/op
+# Warmup Iteration  17: 0.051 s/op
+# Warmup Iteration  18: 0.051 s/op
+# Warmup Iteration  19: 0.050 s/op
+# Warmup Iteration  20: 0.051 s/op
+Iteration   1: 0.051 s/op
+Iteration   2: 0.060 s/op
+Iteration   3: 0.065 s/op
+Iteration   4: 0.058 s/op
+Iteration   5: 0.052 s/op
+Iteration   6: 0.051 s/op
+Iteration   7: 0.051 s/op
+Iteration   8: 0.050 s/op
+Iteration   9: 0.051 s/op
+Iteration  10: 0.095 s/op
+Iteration  11: 0.064 s/op
+Iteration  12: 0.051 s/op
+Iteration  13: 0.053 s/op
+Iteration  14: 0.059 s/op
+Iteration  15: 0.058 s/op
+Iteration  16: 0.051 s/op
+Iteration  17: 0.051 s/op
+Iteration  18: 0.051 s/op
+Iteration  19: 0.051 s/op
+Iteration  20: 0.052 s/op
+
+
+Result "com.baeldung.primitive.IntegerWrapperLookup.findPosition":
+  0.056 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.050, 0.056, 0.095), stdev = 0.010
+  CI (99.9%): [0.047, 0.065] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:41
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+IntegerWrapperLookup.findPosition  avgt   20  0.056 ± 0.009   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.FloatWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.240 s/op
+# Warmup Iteration   2: 0.218 s/op
+# Warmup Iteration   3: 0.217 s/op
+# Warmup Iteration   4: 0.252 s/op
+# Warmup Iteration   5: 0.219 s/op
+# Warmup Iteration   6: 0.220 s/op
+# Warmup Iteration   7: 0.225 s/op
+# Warmup Iteration   8: 0.231 s/op
+# Warmup Iteration   9: 0.218 s/op
+# Warmup Iteration  10: 0.223 s/op
+# Warmup Iteration  11: 0.228 s/op
+# Warmup Iteration  12: 0.212 s/op
+# Warmup Iteration  13: 0.220 s/op
+# Warmup Iteration  14: 0.220 s/op
+# Warmup Iteration  15: 0.222 s/op
+# Warmup Iteration  16: 0.224 s/op
+# Warmup Iteration  17: 0.224 s/op
+# Warmup Iteration  18: 0.214 s/op
+# Warmup Iteration  19: 0.214 s/op
+# Warmup Iteration  20: 0.243 s/op
+Iteration   1: 0.221 s/op
+Iteration   2: 0.211 s/op
+Iteration   3: 0.225 s/op
+Iteration   4: 0.220 s/op
+Iteration   5: 0.215 s/op
+Iteration   6: 0.218 s/op
+Iteration   7: 0.220 s/op
+Iteration   8: 0.218 s/op
+Iteration   9: 0.227 s/op
+Iteration  10: 0.223 s/op
+Iteration  11: 0.214 s/op
+Iteration  12: 0.220 s/op
+Iteration  13: 0.220 s/op
+Iteration  14: 0.222 s/op
+Iteration  15: 0.223 s/op
+Iteration  16: 0.220 s/op
+Iteration  17: 0.224 s/op
+Iteration  18: 0.217 s/op
+Iteration  19: 0.222 s/op
+Iteration  20: 0.223 s/op
+
+
+Result "com.baeldung.primitive.FloatWrapperLookup.findPosition":
+  0.220 ±(99.9%) 0.003 s/op [Average]
+  (min, avg, max) = (0.211, 0.220, 0.227), stdev = 0.004
+  CI (99.9%): [0.217, 0.224] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:36
+
+Benchmark                        Mode  Cnt  Score   Error  Units
+FloatWrapperLookup.findPosition  avgt   20  0.220 ± 0.003   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.FloatPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.094 s/op
+# Warmup Iteration   2: 0.086 s/op
+# Warmup Iteration   3: 0.086 s/op
+# Warmup Iteration   4: 0.083 s/op
+# Warmup Iteration   5: 0.087 s/op
+# Warmup Iteration   6: 0.094 s/op
+# Warmup Iteration   7: 0.089 s/op
+# Warmup Iteration   8: 0.090 s/op
+# Warmup Iteration   9: 0.086 s/op
+# Warmup Iteration  10: 0.086 s/op
+# Warmup Iteration  11: 0.091 s/op
+# Warmup Iteration  12: 0.085 s/op
+# Warmup Iteration  13: 0.084 s/op
+# Warmup Iteration  14: 0.081 s/op
+# Warmup Iteration  15: 0.084 s/op
+# Warmup Iteration  16: 0.084 s/op
+# Warmup Iteration  17: 0.085 s/op
+# Warmup Iteration  18: 0.083 s/op
+# Warmup Iteration  19: 0.088 s/op
+# Warmup Iteration  20: 0.081 s/op
+Iteration   1: 0.088 s/op
+Iteration   2: 0.080 s/op
+Iteration   3: 0.087 s/op
+Iteration   4: 0.088 s/op
+Iteration   5: 0.088 s/op
+Iteration   6: 0.084 s/op
+Iteration   7: 0.087 s/op
+Iteration   8: 0.084 s/op
+Iteration   9: 0.085 s/op
+Iteration  10: 0.085 s/op
+Iteration  11: 0.084 s/op
+Iteration  12: 0.088 s/op
+Iteration  13: 0.085 s/op
+Iteration  14: 0.084 s/op
+Iteration  15: 0.084 s/op
+Iteration  16: 0.085 s/op
+Iteration  17: 0.089 s/op
+Iteration  18: 0.089 s/op
+Iteration  19: 0.085 s/op
+Iteration  20: 0.084 s/op
+
+
+Result "com.baeldung.primitive.FloatPrimitiveLookup.findPosition":
+  0.086 ±(99.9%) 0.002 s/op [Average]
+  (min, avg, max) = (0.080, 0.086, 0.089), stdev = 0.002
+  CI (99.9%): [0.084, 0.088] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+FloatPrimitiveLookup.findPosition  avgt   20  0.086 ± 0.002   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.DoublePrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.104 s/op
+# Warmup Iteration   2: 0.099 s/op
+# Warmup Iteration   3: 0.097 s/op
+# Warmup Iteration   4: 0.103 s/op
+# Warmup Iteration   5: 0.097 s/op
+# Warmup Iteration   6: 0.103 s/op
+# Warmup Iteration   7: 0.093 s/op
+# Warmup Iteration   8: 0.103 s/op
+# Warmup Iteration   9: 0.101 s/op
+# Warmup Iteration  10: 0.103 s/op
+# Warmup Iteration  11: 0.106 s/op
+# Warmup Iteration  12: 0.099 s/op
+# Warmup Iteration  13: 0.097 s/op
+# Warmup Iteration  14: 0.097 s/op
+# Warmup Iteration  15: 0.097 s/op
+# Warmup Iteration  16: 0.105 s/op
+# Warmup Iteration  17: 0.103 s/op
+# Warmup Iteration  18: 0.098 s/op
+# Warmup Iteration  19: 0.100 s/op
+# Warmup Iteration  20: 0.100 s/op
+Iteration   1: 0.095 s/op
+Iteration   2: 0.100 s/op
+Iteration   3: 0.097 s/op
+Iteration   4: 0.073 s/op
+Iteration   5: 0.073 s/op
+Iteration   6: 0.074 s/op
+Iteration   7: 0.077 s/op
+Iteration   8: 0.091 s/op
+Iteration   9: 0.075 s/op
+Iteration  10: 0.074 s/op
+Iteration  11: 0.074 s/op
+Iteration  12: 0.089 s/op
+Iteration  13: 0.092 s/op
+Iteration  14: 0.093 s/op
+Iteration  15: 0.098 s/op
+Iteration  16: 0.098 s/op
+Iteration  17: 0.103 s/op
+Iteration  18: 0.075 s/op
+Iteration  19: 0.075 s/op
+Iteration  20: 0.074 s/op
+
+
+Result "com.baeldung.primitive.DoublePrimitiveLookup.findPosition":
+  0.085 ±(99.9%) 0.010 s/op [Average]
+  (min, avg, max) = (0.073, 0.085, 0.103), stdev = 0.011
+  CI (99.9%): [0.075, 0.095] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:43
+
+Benchmark                           Mode  Cnt  Score   Error  Units
+DoublePrimitiveLookup.findPosition  avgt   20  0.085 ± 0.010   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.DoubleWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.264 s/op
+# Warmup Iteration   2: 0.190 s/op
+# Warmup Iteration   3: 0.174 s/op
+# Warmup Iteration   4: 0.173 s/op
+# Warmup Iteration   5: 0.175 s/op
+# Warmup Iteration   6: 0.187 s/op
+# Warmup Iteration   7: 0.177 s/op
+# Warmup Iteration   8: 0.178 s/op
+# Warmup Iteration   9: 0.173 s/op
+# Warmup Iteration  10: 0.172 s/op
+# Warmup Iteration  11: 0.173 s/op
+# Warmup Iteration  12: 0.173 s/op
+# Warmup Iteration  13: 0.173 s/op
+# Warmup Iteration  14: 0.173 s/op
+# Warmup Iteration  15: 0.173 s/op
+# Warmup Iteration  16: 0.189 s/op
+# Warmup Iteration  17: 0.178 s/op
+# Warmup Iteration  18: 0.174 s/op
+# Warmup Iteration  19: 0.172 s/op
+# Warmup Iteration  20: 0.175 s/op
+Iteration   1: 0.201 s/op
+Iteration   2: 0.175 s/op
+Iteration   3: 0.172 s/op
+Iteration   4: 0.174 s/op
+Iteration   5: 0.175 s/op
+Iteration   6: 0.175 s/op
+Iteration   7: 0.177 s/op
+Iteration   8: 0.174 s/op
+Iteration   9: 0.175 s/op
+Iteration  10: 0.224 s/op
+Iteration  11: 0.218 s/op
+Iteration  12: 0.219 s/op
+Iteration  13: 0.216 s/op
+Iteration  14: 0.216 s/op
+Iteration  15: 0.219 s/op
+Iteration  16: 0.218 s/op
+Iteration  17: 0.206 s/op
+Iteration  18: 0.212 s/op
+Iteration  19: 0.220 s/op
+Iteration  20: 0.223 s/op
+
+
+Result "com.baeldung.primitive.DoubleWrapperLookup.findPosition":
+  0.199 ±(99.9%) 0.019 s/op [Average]
+  (min, avg, max) = (0.172, 0.199, 0.224), stdev = 0.021
+  CI (99.9%): [0.181, 0.218] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:36
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+DoubleWrapperLookup.findPosition  avgt   20  0.199 ± 0.019   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.ShortPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.040 s/op
+# Warmup Iteration   2: 0.040 s/op
+# Warmup Iteration   3: 0.041 s/op
+# Warmup Iteration   4: 0.041 s/op
+# Warmup Iteration   5: 0.040 s/op
+# Warmup Iteration   6: 0.039 s/op
+# Warmup Iteration   7: 0.040 s/op
+# Warmup Iteration   8: 0.041 s/op
+# Warmup Iteration   9: 0.041 s/op
+# Warmup Iteration  10: 0.041 s/op
+# Warmup Iteration  11: 0.040 s/op
+# Warmup Iteration  12: 0.040 s/op
+# Warmup Iteration  13: 0.040 s/op
+# Warmup Iteration  14: 0.041 s/op
+# Warmup Iteration  15: 0.040 s/op
+# Warmup Iteration  16: 0.043 s/op
+# Warmup Iteration  17: 0.039 s/op
+# Warmup Iteration  18: 0.040 s/op
+# Warmup Iteration  19: 0.040 s/op
+# Warmup Iteration  20: 0.040 s/op
+Iteration   1: 0.043 s/op
+Iteration   2: 0.039 s/op
+Iteration   3: 0.038 s/op
+Iteration   4: 0.041 s/op
+Iteration   5: 0.040 s/op
+Iteration   6: 0.040 s/op
+Iteration   7: 0.039 s/op
+Iteration   8: 0.038 s/op
+Iteration   9: 0.040 s/op
+Iteration  10: 0.040 s/op
+Iteration  11: 0.040 s/op
+Iteration  12: 0.041 s/op
+Iteration  13: 0.040 s/op
+Iteration  14: 0.040 s/op
+Iteration  15: 0.039 s/op
+Iteration  16: 0.039 s/op
+Iteration  17: 0.039 s/op
+Iteration  18: 0.038 s/op
+Iteration  19: 0.038 s/op
+Iteration  20: 0.039 s/op
+
+
+Result "com.baeldung.primitive.ShortPrimitiveLookup.findPosition":
+  0.040 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.038, 0.040, 0.043), stdev = 0.001
+  CI (99.9%): [0.039, 0.041] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+ShortPrimitiveLookup.findPosition  avgt   20  0.040 ± 0.001   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.ShortWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.070 s/op
+# Warmup Iteration   2: 0.067 s/op
+# Warmup Iteration   3: 0.068 s/op
+# Warmup Iteration   4: 0.066 s/op
+# Warmup Iteration   5: 0.068 s/op
+# Warmup Iteration   6: 0.069 s/op
+# Warmup Iteration   7: 0.068 s/op
+# Warmup Iteration   8: 0.074 s/op
+# Warmup Iteration   9: 0.069 s/op
+# Warmup Iteration  10: 0.065 s/op
+# Warmup Iteration  11: 0.075 s/op
+# Warmup Iteration  12: 0.071 s/op
+# Warmup Iteration  13: 0.064 s/op
+# Warmup Iteration  14: 0.067 s/op
+# Warmup Iteration  15: 0.068 s/op
+# Warmup Iteration  16: 0.065 s/op
+# Warmup Iteration  17: 0.066 s/op
+# Warmup Iteration  18: 0.067 s/op
+# Warmup Iteration  19: 0.071 s/op
+# Warmup Iteration  20: 0.068 s/op
+Iteration   1: 0.068 s/op
+Iteration   2: 0.069 s/op
+Iteration   3: 0.068 s/op
+Iteration   4: 0.068 s/op
+Iteration   5: 0.068 s/op
+Iteration   6: 0.067 s/op
+Iteration   7: 0.066 s/op
+Iteration   8: 0.067 s/op
+Iteration   9: 0.067 s/op
+Iteration  10: 0.068 s/op
+Iteration  11: 0.066 s/op
+Iteration  12: 0.066 s/op
+Iteration  13: 0.068 s/op
+Iteration  14: 0.069 s/op
+Iteration  15: 0.069 s/op
+Iteration  16: 0.069 s/op
+Iteration  17: 0.071 s/op
+Iteration  18: 0.070 s/op
+Iteration  19: 0.075 s/op
+Iteration  20: 0.066 s/op
+
+
+Result "com.baeldung.primitive.ShortWrapperLookup.findPosition":
+  0.068 ±(99.9%) 0.002 s/op [Average]
+  (min, avg, max) = (0.066, 0.068, 0.075), stdev = 0.002
+  CI (99.9%): [0.066, 0.070] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                        Mode  Cnt  Score   Error  Units
+ShortWrapperLookup.findPosition  avgt   20  0.068 ± 0.002   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.BooleanPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.039 s/op
+# Warmup Iteration   2: 0.040 s/op
+# Warmup Iteration   3: 0.040 s/op
+# Warmup Iteration   4: 0.037 s/op
+# Warmup Iteration   5: 0.037 s/op
+# Warmup Iteration   6: 0.039 s/op
+# Warmup Iteration   7: 0.039 s/op
+# Warmup Iteration   8: 0.038 s/op
+# Warmup Iteration   9: 0.039 s/op
+# Warmup Iteration  10: 0.038 s/op
+# Warmup Iteration  11: 0.038 s/op
+# Warmup Iteration  12: 0.037 s/op
+# Warmup Iteration  13: 0.038 s/op
+# Warmup Iteration  14: 0.038 s/op
+# Warmup Iteration  15: 0.038 s/op
+# Warmup Iteration  16: 0.038 s/op
+# Warmup Iteration  17: 0.038 s/op
+# Warmup Iteration  18: 0.037 s/op
+# Warmup Iteration  19: 0.037 s/op
+# Warmup Iteration  20: 0.037 s/op
+Iteration   1: 0.038 s/op
+Iteration   2: 0.039 s/op
+Iteration   3: 0.038 s/op
+Iteration   4: 0.037 s/op
+Iteration   5: 0.038 s/op
+Iteration   6: 0.038 s/op
+Iteration   7: 0.038 s/op
+Iteration   8: 0.030 s/op
+Iteration   9: 0.030 s/op
+Iteration  10: 0.030 s/op
+Iteration  11: 0.030 s/op
+Iteration  12: 0.030 s/op
+Iteration  13: 0.030 s/op
+Iteration  14: 0.030 s/op
+Iteration  15: 0.030 s/op
+Iteration  16: 0.030 s/op
+Iteration  17: 0.035 s/op
+Iteration  18: 0.036 s/op
+Iteration  19: 0.037 s/op
+Iteration  20: 0.039 s/op
+
+
+Result "com.baeldung.primitive.BooleanPrimitiveLookup.findPosition":
+  0.034 ±(99.9%) 0.003 s/op [Average]
+  (min, avg, max) = (0.030, 0.034, 0.039), stdev = 0.004
+  CI (99.9%): [0.031, 0.037] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:41
+
+Benchmark                            Mode  Cnt  Score   Error  Units
+BooleanPrimitiveLookup.findPosition  avgt   20  0.034 ± 0.003   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.BooleanWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.063 s/op
+# Warmup Iteration   2: 0.052 s/op
+# Warmup Iteration   3: 0.052 s/op
+# Warmup Iteration   4: 0.052 s/op
+# Warmup Iteration   5: 0.052 s/op
+# Warmup Iteration   6: 0.051 s/op
+# Warmup Iteration   7: 0.051 s/op
+# Warmup Iteration   8: 0.053 s/op
+# Warmup Iteration   9: 0.055 s/op
+# Warmup Iteration  10: 0.063 s/op
+# Warmup Iteration  11: 0.067 s/op
+# Warmup Iteration  12: 0.070 s/op
+# Warmup Iteration  13: 0.054 s/op
+# Warmup Iteration  14: 0.055 s/op
+# Warmup Iteration  15: 0.052 s/op
+# Warmup Iteration  16: 0.052 s/op
+# Warmup Iteration  17: 0.053 s/op
+# Warmup Iteration  18: 0.052 s/op
+# Warmup Iteration  19: 0.052 s/op
+# Warmup Iteration  20: 0.051 s/op
+Iteration   1: 0.058 s/op
+Iteration   2: 0.053 s/op
+Iteration   3: 0.052 s/op
+Iteration   4: 0.052 s/op
+Iteration   5: 0.052 s/op
+Iteration   6: 0.058 s/op
+Iteration   7: 0.053 s/op
+Iteration   8: 0.052 s/op
+Iteration   9: 0.052 s/op
+Iteration  10: 0.052 s/op
+Iteration  11: 0.052 s/op
+Iteration  12: 0.052 s/op
+Iteration  13: 0.052 s/op
+Iteration  14: 0.052 s/op
+Iteration  15: 0.052 s/op
+Iteration  16: 0.052 s/op
+Iteration  17: 0.052 s/op
+Iteration  18: 0.052 s/op
+Iteration  19: 0.056 s/op
+Iteration  20: 0.075 s/op
+
+
+Result "com.baeldung.primitive.BooleanWrapperLookup.findPosition":
+  0.054 ±(99.9%) 0.005 s/op [Average]
+  (min, avg, max) = (0.052, 0.054, 0.075), stdev = 0.005
+  CI (99.9%): [0.049, 0.059] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                          Mode  Cnt  Score   Error  Units
+BooleanWrapperLookup.findPosition  avgt   20  0.054 ± 0.005   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.CharPrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.039 s/op
+# Warmup Iteration   2: 0.038 s/op
+# Warmup Iteration   3: 0.032 s/op
+# Warmup Iteration   4: 0.032 s/op
+# Warmup Iteration   5: 0.032 s/op
+# Warmup Iteration   6: 0.032 s/op
+# Warmup Iteration   7: 0.032 s/op
+# Warmup Iteration   8: 0.032 s/op
+# Warmup Iteration   9: 0.032 s/op
+# Warmup Iteration  10: 0.032 s/op
+# Warmup Iteration  11: 0.035 s/op
+# Warmup Iteration  12: 0.040 s/op
+# Warmup Iteration  13: 0.039 s/op
+# Warmup Iteration  14: 0.039 s/op
+# Warmup Iteration  15: 0.032 s/op
+# Warmup Iteration  16: 0.032 s/op
+# Warmup Iteration  17: 0.032 s/op
+# Warmup Iteration  18: 0.032 s/op
+# Warmup Iteration  19: 0.032 s/op
+# Warmup Iteration  20: 0.032 s/op
+Iteration   1: 0.032 s/op
+Iteration   2: 0.032 s/op
+Iteration   3: 0.033 s/op
+Iteration   4: 0.040 s/op
+Iteration   5: 0.040 s/op
+Iteration   6: 0.033 s/op
+Iteration   7: 0.032 s/op
+Iteration   8: 0.032 s/op
+Iteration   9: 0.034 s/op
+Iteration  10: 0.032 s/op
+Iteration  11: 0.032 s/op
+Iteration  12: 0.032 s/op
+Iteration  13: 0.032 s/op
+Iteration  14: 0.032 s/op
+Iteration  15: 0.032 s/op
+Iteration  16: 0.032 s/op
+Iteration  17: 0.032 s/op
+Iteration  18: 0.032 s/op
+Iteration  19: 0.032 s/op
+Iteration  20: 0.032 s/op
+
+
+Result "com.baeldung.primitive.CharPrimitiveLookup.findPosition":
+  0.033 ±(99.9%) 0.002 s/op [Average]
+  (min, avg, max) = (0.032, 0.033, 0.040), stdev = 0.002
+  CI (99.9%): [0.031, 0.035] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:41
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+CharPrimitiveLookup.findPosition  avgt   20  0.033 ± 0.002   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.CharacterWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.066 s/op
+# Warmup Iteration   2: 0.060 s/op
+# Warmup Iteration   3: 0.061 s/op
+# Warmup Iteration   4: 0.055 s/op
+# Warmup Iteration   5: 0.053 s/op
+# Warmup Iteration   6: 0.052 s/op
+# Warmup Iteration   7: 0.052 s/op
+# Warmup Iteration   8: 0.062 s/op
+# Warmup Iteration   9: 0.053 s/op
+# Warmup Iteration  10: 0.052 s/op
+# Warmup Iteration  11: 0.055 s/op
+# Warmup Iteration  12: 0.054 s/op
+# Warmup Iteration  13: 0.053 s/op
+# Warmup Iteration  14: 0.053 s/op
+# Warmup Iteration  15: 0.054 s/op
+# Warmup Iteration  16: 0.065 s/op
+# Warmup Iteration  17: 0.067 s/op
+# Warmup Iteration  18: 0.067 s/op
+# Warmup Iteration  19: 0.067 s/op
+# Warmup Iteration  20: 0.074 s/op
+Iteration   1: 0.067 s/op
+Iteration   2: 0.073 s/op
+Iteration   3: 0.082 s/op
+Iteration   4: 0.086 s/op
+Iteration   5: 0.086 s/op
+Iteration   6: 0.086 s/op
+Iteration   7: 0.086 s/op
+Iteration   8: 0.085 s/op
+Iteration   9: 0.086 s/op
+Iteration  10: 0.079 s/op
+Iteration  11: 0.069 s/op
+Iteration  12: 0.067 s/op
+Iteration  13: 0.065 s/op
+Iteration  14: 0.072 s/op
+Iteration  15: 0.070 s/op
+Iteration  16: 0.071 s/op
+Iteration  17: 0.068 s/op
+Iteration  18: 0.068 s/op
+Iteration  19: 0.068 s/op
+Iteration  20: 0.066 s/op
+
+
+Result "com.baeldung.primitive.CharacterWrapperLookup.findPosition":
+  0.075 ±(99.9%) 0.007 s/op [Average]
+  (min, avg, max) = (0.065, 0.075, 0.086), stdev = 0.008
+  CI (99.9%): [0.068, 0.082] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                            Mode  Cnt  Score   Error  Units
+CharacterWrapperLookup.findPosition  avgt   20  0.075 ± 0.007   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.BytePrimitiveLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.038 s/op
+# Warmup Iteration   2: 0.038 s/op
+# Warmup Iteration   3: 0.038 s/op
+# Warmup Iteration   4: 0.039 s/op
+# Warmup Iteration   5: 0.038 s/op
+# Warmup Iteration   6: 0.038 s/op
+# Warmup Iteration   7: 0.038 s/op
+# Warmup Iteration   8: 0.038 s/op
+# Warmup Iteration   9: 0.037 s/op
+# Warmup Iteration  10: 0.037 s/op
+# Warmup Iteration  11: 0.037 s/op
+# Warmup Iteration  12: 0.037 s/op
+# Warmup Iteration  13: 0.038 s/op
+# Warmup Iteration  14: 0.039 s/op
+# Warmup Iteration  15: 0.039 s/op
+# Warmup Iteration  16: 0.037 s/op
+# Warmup Iteration  17: 0.036 s/op
+# Warmup Iteration  18: 0.038 s/op
+# Warmup Iteration  19: 0.039 s/op
+# Warmup Iteration  20: 0.037 s/op
+Iteration   1: 0.037 s/op
+Iteration   2: 0.038 s/op
+Iteration   3: 0.039 s/op
+Iteration   4: 0.038 s/op
+Iteration   5: 0.037 s/op
+Iteration   6: 0.040 s/op
+Iteration   7: 0.038 s/op
+Iteration   8: 0.037 s/op
+Iteration   9: 0.036 s/op
+Iteration  10: 0.037 s/op
+Iteration  11: 0.039 s/op
+Iteration  12: 0.038 s/op
+Iteration  13: 0.038 s/op
+Iteration  14: 0.038 s/op
+Iteration  15: 0.038 s/op
+Iteration  16: 0.037 s/op
+Iteration  17: 0.036 s/op
+Iteration  18: 0.038 s/op
+Iteration  19: 0.037 s/op
+Iteration  20: 0.036 s/op
+
+
+Result "com.baeldung.primitive.BytePrimitiveLookup.findPosition":
+  0.037 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.036, 0.037, 0.040), stdev = 0.001
+  CI (99.9%): [0.037, 0.038] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:41
+
+Benchmark                         Mode  Cnt  Score   Error  Units
+BytePrimitiveLookup.findPosition  avgt   20  0.037 ± 0.001   s/op
+# JMH version: 1.19
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: -ea
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.baeldung.primitive.ByteWrapperLookup.findPosition
+
+# Run progress: 0.00% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.069 s/op
+# Warmup Iteration   2: 0.066 s/op
+# Warmup Iteration   3: 0.066 s/op
+# Warmup Iteration   4: 0.066 s/op
+# Warmup Iteration   5: 0.066 s/op
+# Warmup Iteration   6: 0.068 s/op
+# Warmup Iteration   7: 0.065 s/op
+# Warmup Iteration   8: 0.066 s/op
+# Warmup Iteration   9: 0.069 s/op
+# Warmup Iteration  10: 0.065 s/op
+# Warmup Iteration  11: 0.069 s/op
+# Warmup Iteration  12: 0.067 s/op
+# Warmup Iteration  13: 0.067 s/op
+# Warmup Iteration  14: 0.068 s/op
+# Warmup Iteration  15: 0.069 s/op
+# Warmup Iteration  16: 0.066 s/op
+# Warmup Iteration  17: 0.067 s/op
+# Warmup Iteration  18: 0.070 s/op
+# Warmup Iteration  19: 0.076 s/op
+# Warmup Iteration  20: 0.069 s/op
+Iteration   1: 0.068 s/op
+Iteration   2: 0.069 s/op
+Iteration   3: 0.068 s/op
+Iteration   4: 0.069 s/op
+Iteration   5: 0.069 s/op
+Iteration   6: 0.068 s/op
+Iteration   7: 0.069 s/op
+Iteration   8: 0.069 s/op
+Iteration   9: 0.070 s/op
+Iteration  10: 0.071 s/op
+Iteration  11: 0.072 s/op
+Iteration  12: 0.069 s/op
+Iteration  13: 0.069 s/op
+Iteration  14: 0.070 s/op
+Iteration  15: 0.069 s/op
+Iteration  16: 0.068 s/op
+Iteration  17: 0.068 s/op
+Iteration  18: 0.070 s/op
+Iteration  19: 0.070 s/op
+Iteration  20: 0.070 s/op
+
+
+Result "com.baeldung.primitive.ByteWrapperLookup.findPosition":
+  0.069 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.068, 0.069, 0.072), stdev = 0.001
+  CI (99.9%): [0.068, 0.070] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:00:42
+
+Benchmark                       Mode  Cnt  Score   Error  Units
+ByteWrapperLookup.findPosition  avgt   20  0.069 ± 0.001   s/op
+
+Process finished with exit code 0

@@ -1,0 +1,200 @@
+Primitive short first
+Short/short: 1.9787234042553192
+Primitive short first
+Short/short: 2.3191489361702127
+Primitive short first
+Short/short: 1.3404255319148937
+Wrapper Short first
+Short/short: 1.0161290322580645
+Wrapper Short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 1.6956521739130435
+Wrapper Short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2380952380952381
+Wrapper Short first
+Short/short: 1.4761904761904763
+Primitive short first
+Short/short: 2.0
+Primitive short first
+Short/short: 1.5161290322580645
+Primitive short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.253968253968254
+Primitive short first
+Short/short: 1.205128205128205
+Wrapper Short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.7741935483870968
+Wrapper Short first
+Short/short: 1.492063492063492
+Wrapper Short first
+Short/short: 2.0
+Primitive short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 2.5483870967741935
+Primitive short first
+Short/short: 1.2580645161290323
+Wrapper Short first
+Short/short: 1.6595744680851063
+Wrapper Short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 1.5161290322580645
+Wrapper Short first
+Short/short: 1.6808510638297873
+Wrapper Short first
+Short/short: 1.7580645161290323
+Primitive short first
+Short/short: 2.0
+Primitive short first
+Short/short: 2.5161290322580645
+Primitive short first
+Short/short: 1.9787234042553192
+Wrapper Short first
+Short/short: 1.6595744680851063
+Wrapper Short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 1.492063492063492
+Primitive short first
+Short/short: 1.6595744680851063
+Wrapper Short first
+Short/short: 1.4761904761904763
+Wrapper Short first
+Short/short: 1.6956521739130435
+Primitive short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 1.2580645161290323
+Primitive short first
+Short/short: 1.6956521739130435
+Wrapper Short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.0
+Primitive short first
+Short/short: 1.2380952380952381
+Wrapper Short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 1.4761904761904763
+Wrapper Short first
+Short/short: 1.7173913043478262
+Primitive short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.0
+Wrapper Short first
+Short/short: 1.5161290322580645
+Primitive short first
+Short/short: 1.6808510638297873
+Primitive short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2580645161290323
+Primitive short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.0
+Primitive short first
+Short/short: 1.6595744680851063
+Primitive short first
+Short/short: 1.4761904761904763
+Wrapper Short first
+Short/short: 1.6956521739130435
+Primitive short first
+Short/short: 1.2580645161290323
+Primitive short first
+Short/short: 1.6595744680851063
+Wrapper Short first
+Short/short: 1.492063492063492
+Primitive short first
+Short/short: 1.492063492063492
+Wrapper Short first
+Short/short: 1.492063492063492
+Wrapper Short first
+Short/short: 1.2580645161290323
+Primitive short first
+Short/short: 1.6956521739130435
+Wrapper Short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2580645161290323
+Wrapper Short first
+Short/short: 1.5161290322580645
+Wrapper Short first
+Short/short: 1.0
+Wrapper Short first
+Short/short: 1.2580645161290323
+Primitive short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.3404255319148937
+Primitive short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2380952380952381
+Primitive short first
+Short/short: 1.2380952380952381
+Wrapper Short first
+Short/short: 1.3404255319148937
+Primitive short first
+Short/short: 1.3191489361702127
+Wrapper Short first
+Short/short: 0.7974683544303798
+Primitive short first
+Short/short: 1.3191489361702127
+Primitive short first
+Short/short: 1.3478260869565217
+Wrapper Short first
+Short/short: 2.5161290322580645
+Primitive short first
+Short/short: 2.0
+Primitive short first
+Short/short: 1.6595744680851063
+Wrapper Short first
+Short/short: 2.0
+Wrapper Short first
+Short/short: 1.0
+Wrapper Short first
+Short/short: 1.3404255319148937
+Wrapper Short first
+Short/short: 1.3404255319148937
+Wrapper Short first
+Short/short: 1.205128205128205
+Wrapper Short first
+Short/short: 1.492063492063492
+Primitive short first
+Short/short: 1.3191489361702127
+Primitive short first
+Short/short: 1.6808510638297873
+Wrapper Short first
+Short/short: 1.6956521739130435
+Primitive short first
+Short/short: 2.5483870967741935
+Primitive short first
+Short/short: 1.0
+Primitive short first
+Short/short: 1.0
+Wrapper Short first
+Short/short: 1.3404255319148937
+Wrapper Short first
+Short/short: 1.6595744680851063
+Wrapper Short first
+Short/short: 1.6956521739130435
