@@ -1,0 +1,41 @@
+%\documentclass[a4paper,12pt]{article}
+\documentclass[convert={density=300}]{standalone}
+\pagestyle{empty}
+\usepackage{pst-plot}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{amsmath}
+\definecolor{bael1}{RGB}{99,177,117}
+
+\begin{document}
+\newcounter{counter}
+\setcounter{counter}{0}
+% $\underbrace{0~1~\ldots~9}_{
+% 	\begin{tikzpicture}
+% 		\node (p1) at (0, 1) {x};
+% 	\end{tikzpicture}} 
+% \underbrace{10~11~\ldots~19}_{}
+% \quad\ldots\quad
+% \underbrace{90~91~\ldots~99}_{}$
+
+$$\begin{tikzpicture}
+{\large 
+\node (p0) at (1, 2) {$\underbrace{0\quad1~\ldots~9}_{}$};
+\node (p1) at (4, 2) {$\underbrace{10\quad11~\ldots~19}_{}$};
+\node at (6.25, 2) {$\cdots$};
+\node (p9) at (8.5, 2) {$\underbrace{90\quad91~\ldots~99}_{}$};
+}
+\draw[step=1cm,color=bael1, yshift=0cm, line width=1pt] (0, 0) grid (10, 1);
+\foreach \x in {0, ..., 9}{
+	\node [yshift=0cm] at (\value{counter}-1/2, 1/2) {\x\addtocounter{counter}{1}};
+	\node [yshift=1cm] (c\x) at (\value{counter}-1/2, 0) {};
+}
+\draw[->, line width=1pt, bael1] ([yshift=-0.75cm] p0.north) to[out=-90, in=90] (c0.north);
+\draw[->, line width=1pt, bael1] ([yshift=-0.75cm] p1.north) to[out=-90, in=90] (c1.north);
+\draw[->, line width=1pt, bael1] ([yshift=-0.75cm] p9.north) to[out=-90, in=90] (c9.north);
+\end{tikzpicture}$$
+
+\end{document}
+
+
+
