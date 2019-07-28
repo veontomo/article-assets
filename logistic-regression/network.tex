@@ -1,0 +1,86 @@
+%\documentclass[a4paper,12pt]{article}
+\documentclass[convert={density=300}]{standalone}
+\pagestyle{empty}
+\usepackage{pst-plot}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{tkz-fct}  
+\usetikzlibrary{arrows}
+\definecolor{bael1}{RGB}{99, 177, 117}
+\definecolor{bael2}{RGB}{200, 200, 200}
+
+\begin{document}
+\newlength{\w}
+\setlength{\w}{6cm}
+\newlength{\s}
+\setlength{\s}{0.25cm}
+\newlength{\rx}
+\setlength{\rx}{0.15cm}
+\newlength{\ry}
+\setlength{\ry}{0.15cm}
+
+\newlength{\layer}
+
+\newcounter{counter}
+
+
+\begin{tikzpicture}
+
+\node[inner sep=0pt, xshift=0, yshift=0, blend group=lighten] (digit) at (-0.75\w, 0.5\w) {\includegraphics[width=\w]{1007.png}};
+\draw[step=\s, fill=white, color=bael1, xshift=-1.25\w, yshift=0, line width=1pt] (0, 0) grid (\w, \w);
+\node[xshift=-0.75*\w, yshift=0, anchor=north] at (0, 0) {$28\times28$};
+
+
+% layer 1
+\setlength{\layer}{0cm}
+\foreach \v [count=\i] in {1, 2, $\ldots$, 19, 20} {
+	\node[xshift=\layer + (\i-1)*\rx, yshift=(\i-1)*\ry, anchor=south] at (0, \w) {{\tiny \v}};
+	\draw[bael1, fill=white, xshift=\layer + (5-\i)*\rx, yshift=(5-\i)*\ry] (0, 0) -- (\w, 0) -- (\w, \w) -- (0, \w) -- cycle;
+	\draw[step=\s, fill=white, color=bael1, xshift=\layer + (5-\i)*\rx, yshift=(5-\i)*\ry, line width=1pt] (0, 0) grid (\w, \w);
+}
+\node[xshift=\layer + 0.5*\w, yshift=0, anchor=north] at (0, 0) {$24\times24$};
+
+% layer 2
+\setlength{\layer}{1.5\w}
+\foreach \v [count=\i] in {1, 2, $\ldots$, 19, 20} {
+	\node[xshift=\layer + (\i-1)*\rx, yshift=(\i-1)*\ry, anchor=south] at (0, \w) {{\tiny \v}};
+	\draw[bael1, fill=white, xshift=\layer + (5-\i)*\rx, yshift=(5-\i)*\ry] (0, 0) -- (\w, 0) -- (\w, \w) -- (0, \w) -- cycle;
+	\draw[step=2\s, fill=white, color=bael1, xshift=\layer + (5-\i)*\rx, yshift=(5-\i)*\ry, line width=1pt] (0, 0) grid (\w, \w);
+}
+\node[xshift=\layer + 0.5*\w, yshift=0, anchor=north] at (0, 0) {$12\times12$};
+
+% layer 3
+\setlength{\layer}{3\w}
+\foreach \v [count=\i] in {1, 2, $\ldots$, 48, 49, 50} {
+	\node[xshift=\layer + (\i-1)*\rx, yshift=(\i-1)*\ry, anchor=south] at (0, \w) {{\tiny \v}};
+	\draw[bael1, fill=white, xshift=\layer + (6-\i)*\rx, yshift=(6-\i)*\ry] (0, 0) -- (\w, 0) -- (\w, \w) -- (0, \w) -- cycle;
+	\draw[step=3\s, fill=white, color=bael1, xshift=\layer + (6-\i)*\rx, yshift=(6-\i)*\ry, line width=1pt] (0, 0) grid (\w, \w);
+}
+\node[xshift=\layer + 0.5*\w, yshift=0, anchor=north] at (0, 0) {$8\times8$};
+
+% layer 4
+\setlength{\layer}{4.5\w}
+\foreach \v [count=\i] in {1, 2, $\ldots$, 48, 49, 50} {
+	\node[xshift=\layer + (\i-1)*\rx, yshift=(\i-1)*\ry, anchor=south] at (0, \w) {{\tiny \v}};
+	\draw[bael1, fill=white, xshift=\layer + (6-\i)*\rx, yshift=(6-\i)*\ry] (0, 0) -- (\w, 0) -- (\w, \w) -- (0, \w) -- cycle;
+	\draw[step=6\s, fill=white, color=bael1, xshift=\layer + (6-\i)*\rx, yshift=(6-\i)*\ry, line width=1pt] (0, 0) grid (\w, \w);
+}
+\node[xshift=\layer + 0.5*\w, yshift=0, anchor=north] at (0, 0) {$4\times4$};
+
+% layer 5
+\setlength{\layer}{6\w}
+\draw[step=\s, fill=white, color=bael1, xshift=\layer + \rx, yshift=\ry, line width=1pt] (0, 0) grid (\s, 1\w);
+\node[xshift=\layer + \s, yshift=0, anchor=north] at (0, 0) {500};
+
+% layer 6
+\setlength{\layer}{6.5\w}
+\draw[step=\s, fill=white, color=bael1, xshift=\layer + \rx, yshift=0.5\w-5\s, line width=1pt] (0, 0) grid (\s, 10\s);
+\node[xshift=\layer + \s, yshift=0.5\w-5\s, anchor=north] at (0, 0) {10};
+
+
+\end{tikzpicture}
+
+\end{document}
+
+
+

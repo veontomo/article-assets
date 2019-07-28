@@ -1,0 +1,31 @@
+%\documentclass[a4paper,12pt]{article}
+\documentclass[convert={density=300}]{standalone}
+\pagestyle{empty}
+\usepackage{pst-plot}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{tkz-fct}  
+\definecolor{bael1}{RGB}{99,177,117}
+
+\begin{document}
+\newlength{\w}
+\setlength{\w}{1cm}
+\newlength{\rx}
+\setlength{\rx}{0.06cm}
+\newlength{\ry}
+\setlength{\ry}{0.06cm}
+
+\newcounter{counter}
+
+
+\begin{tikzpicture}
+\foreach \i in {20,..., 1} {
+	\draw[bael1, fill=white, xshift=\i*\rx, yshift=\i*\ry] (0,0) -- (\w,0) -- (\w,\w) -- (0,\w) -- (0,0);
+}
+
+\end{tikzpicture}
+
+\end{document}
+
+
+
